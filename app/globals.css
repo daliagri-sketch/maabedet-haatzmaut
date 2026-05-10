@@ -2,6 +2,10 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+/* Note: Assistant + Fraunces should be loaded via <link> in app/layout.tsx
+   or next/font. Tailwind v4 inlines its @imports above any later @import,
+   which violates CSS @import-must-be-first. Using system fallbacks for now. */
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -126,4 +130,175 @@
   html {
     @apply font-sans;
     }
+}
+
+/* =========================================================================
+   Lab — Design System for "מעבדת העצמאות"
+   Source: Claude Design file (מעבדת העצמאות v2.html).
+   Scoped via .lab-* class names so the rest of the app stays untouched.
+   The Assistant + Fraunces @import sits at the top of this file, alongside
+   the other @imports, since CSS requires @import to precede all other rules.
+   ========================================================================= */
+
+:root {
+  /* Type scale */
+  --lab-t-eyebrow: 10.5px;
+  --lab-t-micro:   12px;
+  --lab-t-body:    15px;
+  --lab-t-body-l:  16px;
+  --lab-t-title-s: 22px;
+  --lab-t-title-m: 28px;
+  --lab-t-title-l: 34px;
+
+  /* Spacing tokens */
+  --lab-sp-1: 4px;  --lab-sp-2: 8px;  --lab-sp-3: 12px; --lab-sp-4: 16px;
+  --lab-sp-5: 20px; --lab-sp-6: 24px; --lab-sp-7: 28px; --lab-sp-8: 32px;
+  --lab-sp-9: 40px;
+
+  /* Radii */
+  --lab-r-sm: 4px;  --lab-r-md: 6px;  --lab-r-lg: 10px;
+
+  /* Palette */
+  --lab-sand:        #EFE4D2;
+  --lab-cream:       #F7EEDE;
+  --lab-rule:        #DCCFB8;
+  --lab-rule-soft:   #E4D8C0;
+  --lab-ink:         #1C1B18;
+  --lab-ink-deep:    #161513;
+  --lab-muted:       #6A655E;
+  --lab-muted-2:     #55514A;
+  --lab-muted-3:     #35332F;
+  --lab-terra:       #C85845;
+  --lab-terra-deep:  #BF4F3C;
+  --lab-terra-hover: #A8442F;
+  --lab-placeholder: #B6AB97;
+}
+
+.lab-paper {
+  background-color: var(--lab-sand);
+  color: var(--lab-ink);
+  font-family: var(--font-assistant), 'Assistant', sans-serif;
+  background-image:
+    radial-gradient(ellipse 70% 50% at 85% 10%, rgba(200,88,69,0.045), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 10% 100%, rgba(28,27,24,0.025), transparent 70%);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.lab-hr {
+  height: 1px;
+  background: var(--lab-rule);
+}
+
+.lab-eyebrow {
+  font-family: var(--font-assistant), 'Assistant', sans-serif;
+  font-size: var(--lab-t-eyebrow);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--lab-muted);
+}
+.lab-eyebrow.lab-accent { color: var(--lab-terra); }
+
+.lab-body {
+  font-family: var(--font-assistant), 'Assistant', sans-serif;
+  font-size: var(--lab-t-body);
+  line-height: 1.55;
+  font-weight: 400;
+  color: var(--lab-ink);
+}
+.lab-body-mute { color: var(--lab-muted); }
+.lab-body-lg   { font-size: var(--lab-t-body-l); line-height: 1.5; }
+
+.lab-title-s {
+  font-family: var(--font-fraunces), 'Fraunces', Georgia, serif;
+  font-size: var(--lab-t-title-s);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.005em;
+}
+.lab-title-m {
+  font-family: var(--font-fraunces), 'Fraunces', Georgia, serif;
+  font-size: var(--lab-t-title-m);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+.lab-title-l {
+  font-family: var(--font-fraunces), 'Fraunces', Georgia, serif;
+  font-size: var(--lab-t-title-l);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+/* Convenience alias — defaults to the largest editorial title. */
+.lab-title {
+  font-family: var(--font-fraunces), 'Fraunces', Georgia, serif;
+  font-size: var(--lab-t-title-l);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+.lab-bg-num {
+  font-family: var(--font-fraunces), 'Fraunces', Georgia, serif;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: -0.05em;
+  color: var(--lab-ink);
+  opacity: 0.035;
+  font-size: 180px;
+  line-height: 0.8;
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  top: 76px;
+  left: -14px;
+}
+
+.lab-cta {
+  width: 100%;
+  height: 56px;
+  padding: 0 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-assistant), 'Assistant', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  border-radius: var(--lab-r-md);
+  background: var(--lab-terra);
+  color: var(--lab-cream);
+  transition: background-color .2s ease, transform .15s ease;
+}
+.lab-cta:hover  { background: var(--lab-terra-hover); }
+.lab-cta:active { transform: translateY(1px); }
+.lab-cta-ghost {
+  background: transparent;
+  color: var(--lab-ink);
+  border: 1px solid var(--lab-rule);
+}
+.lab-cta-ghost:hover { background: rgba(28,27,24,.04); }
+
+.lab-card {
+  background: var(--lab-cream);
+  border: 1px solid var(--lab-rule-soft);
+  border-radius: var(--lab-r-lg);
+  box-shadow: 0 1px 0 rgba(28,27,24,.015), 0 6px 14px -10px rgba(28,27,24,.08);
+}
+
+.lab-press { transition: transform .18s ease, background-color .22s ease; }
+.lab-press:active { transform: translateY(1px); }
+
+.lab-step-dot {
+  width: 5px; height: 5px;
+  border-radius: 999px;
+  background: var(--lab-rule);
+}
+.lab-step-dot.lab-active {
+  background: var(--lab-terra);
+  width: 20px;
+  border-radius: 3px;
 }
