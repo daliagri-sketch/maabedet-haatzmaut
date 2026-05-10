@@ -1,0 +1,1282 @@
+[
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440001",
+    "parent_input": "אני אומרת לו כבר רבע שעה לפתוח את התיק. הוא עונה 'כן כן' ומשחק בלגו.",
+    "arena": "homework",
+    "pattern": "loop",
+    "age_band": "7-8",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא שומע אותך — אבל למד שאפשר להתעלם. ככל שתגידי יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצרי במקום. תני לו 10 שניות שקט. אחרי זה תגשי, תסגרי את הלגו בקופסה בלי מילה.",
+      "what_to_say": "עכשיו פותחים תיק.",
+      "what_not_to_do": "אל תמשיכי להסביר למה חשוב לעשות שיעורים. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440002",
+    "parent_input": "הוא קם מהשולחן ואמר שהוא לא מבין כלום. אני מרגיש שהקול שלי עולה.",
+    "arena": "homework",
+    "pattern": "zero_to_hundred",
+    "age_band": "7-8",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא הגיע לנקודה שהוא לא יודע איך לעבור אותה. הכעס שלך עולה — אבל הוא לא יכול ללמוד כשמישהו כועס עליו.",
+      "what_to_do": "עצור לפני שניגש אליו. טון אחד למטה. התיישב לידו בשקט.",
+      "what_to_say": "בסדר. בוא נסתכל ביחד.",
+      "what_not_to_do": "אל תכנס לוויכוח על למה הוא לא מנסה. זה רק מעלה את הטון."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440003",
+    "parent_input": "הוא אומר שלא מבין. אני יודעת את התשובה ורוצה לתת לו אותה.",
+    "arena": "homework",
+    "pattern": "just_this_once",
+    "age_band": "7-8",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה שמישהו ייתן לו את התשובה. הוא מסוגל למצוא את הדרך עם שאלה נכונה.",
+      "what_to_do": "הידיים שלך לא נוגעות בדף. שאלי שאלה אחת. חכי שהוא קורא.",
+      "what_to_say": "מה כתוב בתחילת השאלה?",
+      "what_not_to_do": "אל תתני לו את התשובה. נתני לו שאלה."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440004",
+    "parent_input": "הוא קם מהשולחן. אני רק רוצה לקום ולצאת מהסיטואציה.",
+    "arena": "homework",
+    "pattern": "quiet_surrender",
+    "age_band": "7-8",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא צריך לראות שאת לא עוזבת את הרגע. הוא לא לומד לבד מתסכול.",
+      "what_to_do": "הישארי בחדר. אל תקומי ללכת. אמרי משפט אחד וחכי.",
+      "what_to_say": "אני יושבת פה. תנסה שוב.",
+      "what_not_to_do": "אל תעזבי את החדר. גם להישאר לידו זו פעולה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440005",
+    "parent_input": "כמה פעמים אמרתי? לבוש כבר. הוא עדיין לא זז.",
+    "arena": "morning",
+    "pattern": "loop",
+    "age_band": "5-6",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא שומע — אבל למד שאפשר לחכות. ככל שתאמרי יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצרי במקום. תני לו 5 שניות שקט. אחרי זה תגשי והוציאי את החולצה מהארון בלי מילה.",
+      "what_to_say": "עכשיו מתלבשים.",
+      "what_not_to_do": "אל תמשיכי להסביר למה צריך להתלבש. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440006",
+    "parent_input": "אנחנו מאחרים. אמרתי עכשיו. הוא עדיין משחק.",
+    "arena": "morning",
+    "pattern": "zero_to_hundred",
+    "age_band": "5-6",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא זז — והקול שלך עולה. הוא לא יכול לזוז כשמישהו כועס עליו.",
+      "what_to_do": "עצרי לפני שניגשת. טון אחד למטה. תגשי בשקט ותרימי את הנעל בלי מילה.",
+      "what_to_say": "נעליים עכשיו.",
+      "what_not_to_do": "אל תדברי מתוך כעס. זה רק מעכב אותו."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440007",
+    "parent_input": "הוא לא מתלבש. תן לי את הנעל, אני אעזור לו.",
+    "arena": "morning",
+    "pattern": "just_this_once",
+    "age_band": "5-6",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה שמישהו יעשה במקומו. הוא מסוגל להתלבש לבד עם כיוון אחד.",
+      "what_to_do": "הידיים שלך לא נוגעות בבגדים. תעמדי לידו. אמרי משפט אחד וחכי.",
+      "what_to_say": "נעליים על הרגליים.",
+      "what_not_to_do": "אל תעשי במקומו. מה שתעשי היום במקומו — הוא לא ילמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440008",
+    "parent_input": "כבר שעה שאני אומרת לו להתלבש. אני עייפה.",
+    "arena": "morning",
+    "pattern": "quiet_surrender",
+    "age_band": "5-6",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה לראות אם תעשי במקומו. ככל שתחכי יותר, כך הוא ילמד שלא צריך לזוז.",
+      "what_to_do": "קומי. גשי אליו. הוציאי את החולצה מהארון בלי מילה.",
+      "what_to_say": "עכשיו מתלבשים.",
+      "what_not_to_do": "אל תמתיני שהוא יזוז מעצמו. כל דקה נוספת שאת לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440009",
+    "parent_input": "אמרתי לה לצחצח שיניים עשר פעמים. היא עדיין יושבת על המיטה.",
+    "arena": "evening",
+    "pattern": "loop",
+    "age_band": "7-8",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא שומעת אותך — אבל למדה שאפשר להתעלם. ככל שתגידי יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצרי במקום. תני לה 10 שניות שקט. אחרי זה תגשי ותעמדי בכניסה לשירותים בלי מילה.",
+      "what_to_say": "שיניים עכשיו.",
+      "what_not_to_do": "אל תמשיכי להסביר למה חשוב לצחצח שיניים. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440010",
+    "parent_input": "אמרתי לה לכבות את האור. היא לא זזה. אני מרגיש שהקול שלי עולה.",
+    "arena": "evening",
+    "pattern": "zero_to_hundred",
+    "age_band": "7-8",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "היא לא זזה — והכעס שלך עולה. היא לא יכולה לזוז כשמישהו כועס עליה.",
+      "what_to_do": "עצור לפני שניגש אליה. טון אחד למטה. תגש בשקט ותכבה את האור בעצמך בלי מילה.",
+      "what_to_say": "אור כבוי.",
+      "what_not_to_do": "אל תכנס לוויכוח. זה רק מעלה את הטון."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440011",
+    "parent_input": "היא לא הולכת לישון. בוא אני אלווה אותה למיטה.",
+    "arena": "evening",
+    "pattern": "just_this_once",
+    "age_band": "7-8",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה שמישהו ייתן לה עזרה. היא מסוגלת ללכת למיטה לבד.",
+      "what_to_do": "עמוד במקום. אמור משפט אחד. חכה.",
+      "what_to_say": "למיטה עכשיו.",
+      "what_not_to_do": "אל תעשה במקומה. מה שתעשה היום במקומה — היא לא תלמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440012",
+    "parent_input": "כבר שעה שאני אומרת לה לכבות מסך. אני עייפה.",
+    "arena": "evening",
+    "pattern": "quiet_surrender",
+    "age_band": "7-8",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה לראות אם תכבה את המסך בעצמך. ככל שתחכי יותר, כך היא תלמד שלא צריך לזוז.",
+      "what_to_do": "קומי. גשי אליה. קחי את השלט בלי מילה וכבי את המסך.",
+      "what_to_say": "מסך כבוי.",
+      "what_not_to_do": "אל תמתיני שהיא תכבה מעצמה. כל דקה נוספת שאת לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440013",
+    "parent_input": "עדן קיבלה תשומת לב. אלמה פגעה בה שוב.",
+    "arena": "siblings",
+    "pattern": "loop",
+    "age_band": "3-4",
+    "parent_state": "burning",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "אלמה לא יודעת לבקש מקום בלי לפגוע. כל הסבר נוסף הוא תשומת לב — שזה בדיוק מה שהיא חיפשה.",
+      "what_to_do": "אל תסבירי. עצרי את הפגיעה. משפט אחד — שקט. קודם טפלי בעדן. אחר כך החזירי את אלמה לדרך אחרת לבקש מקום.",
+      "what_to_say": "לא פוגעים בעדן.",
+      "what_not_to_do": "אל תהפכי את זה להרצאה. זה רק נותן לה תשומת לב מתוך הפגיעה."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440014",
+    "parent_input": "עדן קיבלה תשומת לב. אלמה פגעה בה. הגוף שלי כבר נכנס אליה בכעס.",
+    "arena": "siblings",
+    "pattern": "zero_to_hundred",
+    "age_band": "3-4",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "אלמה לא רעה. היא פעלה לפני שידעה לעצור. היא לא יכולה להירגע כשמישהו מגיע אליה בחוזקה.",
+      "what_to_do": "עצור לפני שמדבר. תגש בשקט — לא בריצה. עצור את הפגיעה. קודם טפל בעדן.",
+      "what_to_say": "לא פוגעים בעדן.",
+      "what_not_to_do": "אל תרים קול. זה רק מעכב אותה."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440015",
+    "parent_input": "עדן קיבלה תשומת לב. אלמה פגעה. אני חושב לתת לאלמה קצת עכשיו כדי שזה ייגמר.",
+    "arena": "siblings",
+    "pattern": "just_this_once",
+    "age_band": "3-4",
+    "parent_state": "stuck",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "אלמה לומדת מה עובד. אם פגיעה מביאה תשומת לב — היא תמשיך לפגוע.",
+      "what_to_do": "אל תיגש לאלמה מתוך רצון להרגיע. עצור את הפגיעה קודם. טפל בעדן. אחר כך החזר את אלמה לדרך אחרת לבקש מקום.",
+      "what_to_say": "לא פוגעים בעדן. עוצרים.",
+      "what_not_to_do": "אל תיתן לה תשומת לב מתוך הפגיעה. זה רק מלמד אותה להמשיך."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440016",
+    "parent_input": "עדן קיבלה תשומת לב. אלמה פגעה שוב. אני עייף מהדפוס הזה.",
+    "arena": "siblings",
+    "pattern": "quiet_surrender",
+    "age_band": "3-4",
+    "parent_state": "depleted",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "אלמה לא לומדת לבקש מקום אחרת כשפגיעה עוברת בשתיקה. כל פעם שלא עצרת — היא למדה שאפשר להמשיך.",
+      "what_to_do": "אל תישאר יושב. קום ועצור. עצור את הפגיעה. קודם טפל בעדן. אחר כך החזר את אלמה לדרך אחרת לבקש מקום.",
+      "what_to_say": "לא פוגעים בעדן.",
+      "what_not_to_do": "אל תתן לזה לעבור. כל פעם שלא עצרת — היא למדה שאפשר."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440017",
+    "parent_input": "אמרתי לו שלוש פעמים לשבת לאכול. הוא עדיין משחק.",
+    "arena": "morning",
+    "pattern": "loop",
+    "age_band": "3-4",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא שומע אותך — אבל למד שאפשר להמשיך לשחק. ככל שתגיד יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצור במקום. תן לו 5 שניות שקט. אחרי זה תגש, תקח את הצעצוע מהיד בלי מילה ותוביל אותו לכיסא.",
+      "what_to_say": "עכשיו אוכלים.",
+      "what_not_to_do": "אל תמשיך להסביר למה חשוב לאכול. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440018",
+    "parent_input": "אמרתי לו לשבת לאכול עכשיו. הוא לא זז. אני מרגיש שהקול שלי עולה.",
+    "arena": "morning",
+    "pattern": "zero_to_hundred",
+    "age_band": "3-4",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא זז — והכעס שלך עולה. הוא לא יכול לזוז כשמישהו כועס עליו.",
+      "what_to_do": "עצור לפני שניגש אליו. טון אחד למטה. תגש בשקט, תקח את הצעצוע מהיד בלי מילה ותוביל אותו לכיסא.",
+      "what_to_say": "לכיסא עכשיו.",
+      "what_not_to_do": "אל תדבר מתוך כעס. זה רק מעכב אותו."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440019",
+    "parent_input": "הוא לא בא לאכול. בוא אני אביא לו את האוכל למשחק.",
+    "arena": "morning",
+    "pattern": "just_this_once",
+    "age_band": "3-4",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה שמישהו יעשה במקומו. הוא מסוגל ללכת לכיסא לבד עם ליווי.",
+      "what_to_do": "אל תביא לו את האוכל. גש אליו. קח את הצעצוע מהיד. הובל אותו לכיסא.",
+      "what_to_say": "לכיסא עכשיו.",
+      "what_not_to_do": "אל תעשה במקומו. מה שתעשה היום במקומו — הוא לא ילמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440020",
+    "parent_input": "כבר חצי שעה שאני אומר לו לבוא לאכול. אני עייף.",
+    "arena": "morning",
+    "pattern": "quiet_surrender",
+    "age_band": "3-4",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה לראות אם תביא לו את האוכל. ככל שתחכה יותר, כך הוא ילמד שלא צריך לזוז.",
+      "what_to_do": "קום. גש אליו. קח את הצעצוע מהיד בלי מילה. הובל אותו לכיסא.",
+      "what_to_say": "לכיסא עכשיו.",
+      "what_not_to_do": "אל תמתין שהוא יבוא מעצמו. כל דקה נוספת שאתה לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440021",
+    "parent_input": "אמרתי לה לצחצח שיניים חמש פעמים. היא עדיין משחקת.",
+    "arena": "evening",
+    "pattern": "loop",
+    "age_band": "5-6",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא שומעת אותך — אבל למדה שאפשר להמשיך לשחק. ככל שתגידי יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצרי במקום. תני לה 10 שניות שקט. אחרי זה תגשי, תקחי את הצעצוע מהיד בלי מילה ותעמדי בכניסה לשירותים.",
+      "what_to_say": "שיניים עכשיו.",
+      "what_not_to_do": "אל תמשיכי להסביר למה חשוב לצחצח שיניים. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440022",
+    "parent_input": "אמרתי לה לכבות טלוויזיה עכשיו. היא לא זזה. אני מרגיש שהקול שלי עולה.",
+    "arena": "evening",
+    "pattern": "zero_to_hundred",
+    "age_band": "5-6",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "היא לא זזה — והכעס שלך עולה. היא לא יכולה לזוז כשמישהו כועס עליה.",
+      "what_to_do": "עצור לפני שניגש אליה. טון אחד למטה. תגש בשקט וכבה את הטלוויזיה בעצמך בלי מילה.",
+      "what_to_say": "טלוויזיה כבויה.",
+      "what_not_to_do": "אל תכנס לוויכוח. זה רק מעלה את הטון."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440023",
+    "parent_input": "היא לא הולכת לישון. בוא אני אלווה אותה למיטה.",
+    "arena": "evening",
+    "pattern": "just_this_once",
+    "age_band": "5-6",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה שמישהו ייתן לה עזרה. היא מסוגלת ללכת למיטה לבד.",
+      "what_to_do": "עמוד במקום. אמור משפט אחד. חכה.",
+      "what_to_say": "למיטה עכשיו.",
+      "what_not_to_do": "אל תעשה במקומה. מה שתעשה היום במקומה — היא לא תלמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440024",
+    "parent_input": "כבר שעה שאני אומרת לה לכבות אור. אני עייפה.",
+    "arena": "evening",
+    "pattern": "quiet_surrender",
+    "age_band": "5-6",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה לראות אם תכבה את האור בעצמך. ככל שתחכי יותר, כך היא תלמד שלא צריך לזוז.",
+      "what_to_do": "קומי. גשי אליה. כבי את האור בעצמך בלי מילה.",
+      "what_to_say": "אור כבוי.",
+      "what_not_to_do": "אל תמתיני שהיא תכבה מעצמה. כל דקה נוספת שאת לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440025",
+    "parent_input": "התינוק בוכה. הבן פגע בו שוב.",
+    "arena": "siblings",
+    "pattern": "loop",
+    "age_band": "5-6",
+    "parent_state": "burning",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לא יודע לבקש מקום בלי לפגוע. כל הסבר נוסף הוא תשומת לב — שזה בדיוק מה שהוא חיפש.",
+      "what_to_do": "אל תסביר. עצור את הפגיעה. משפט אחד — שקט. קודם טפל בתינוק. אחר כך החזר אותו לדרך אחרת לבקש מקום.",
+      "what_to_say": "לא פוגעים בתינוק.",
+      "what_not_to_do": "אל תהפוך את זה להרצאה. זה רק נותן לו תשומת לב מתוך הפגיעה."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440026",
+    "parent_input": "התינוק בוכה. הבן פגע בו. הגוף שלי כבר נכנס אליו בכעס.",
+    "arena": "siblings",
+    "pattern": "zero_to_hundred",
+    "age_band": "5-6",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא רע. הוא פעל לפני שידע לעצור. הוא לא יכול להירגע כשמישהו מגיע אליו בחוזקה.",
+      "what_to_do": "עצור לפני שמדבר. תגש בשקט — לא בריצה. עצור את הפגיעה. קודם טפל בתינוק.",
+      "what_to_say": "לא פוגעים בתינוק.",
+      "what_not_to_do": "אל תרים קול. זה רק מעכב אותו."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440027",
+    "parent_input": "התינוק בוכה. הבן פגע. אני חושב לתת לו קצת תשומת לב עכשיו כדי שזה ייגמר.",
+    "arena": "siblings",
+    "pattern": "just_this_once",
+    "age_band": "5-6",
+    "parent_state": "stuck",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לומד מה עובד. אם פגיעה מביאה תשומת לב — הוא ימשיך לפגוע.",
+      "what_to_do": "אל תיגש אליו מתוך רצון להרגיע. עצור את הפגיעה קודם. טפל בתינוק. אחר כך החזר אותו לדרך אחרת לבקש מקום.",
+      "what_to_say": "לא פוגעים בתינוק. עוצרים.",
+      "what_not_to_do": "אל תיתן לו תשומת לב מתוך הפגיעה. זה רק מלמד אותו להמשיך."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440028",
+    "parent_input": "התינוק בוכה. הבן פגע שוב. אני עייף מהדפוס הזה.",
+    "arena": "siblings",
+    "pattern": "quiet_surrender",
+    "age_band": "5-6",
+    "parent_state": "depleted",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לא לומד לבקש מקום אחרת כשפגיעה עוברת בשתיקה. כל פעם שלא עצרת — הוא למד שאפשר להמשיך.",
+      "what_to_do": "אל תישאר יושב. קום ועצור. עצור את הפגיעה. קודם טפל בתינוק. אחר כך החזר אותו לדרך אחרת לבקש מקום.",
+      "what_to_say": "לא פוגעים בתינוק.",
+      "what_not_to_do": "אל תתן לזה לעבור. כל פעם שלא עצרת — הוא למד שאפשר."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440029",
+    "parent_input": "אמרתי לו שש פעמים לפתוח מחברת. הוא עדיין משחק בטלפון.",
+    "arena": "homework",
+    "pattern": "loop",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא שומע אותך — אבל למד שאפשר להמשיך במסך. ככל שתגיד יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצור במקום. תן לו 10 שניות שקט. אחרי זה תגש, תקח את הטלפון מהיד בלי מילה ותניח אותו מחוץ לחדר.",
+      "what_to_say": "מחברת עכשיו.",
+      "what_not_to_do": "אל תמשיך להסביר למה חשוב לעשות שיעורים. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440030",
+    "parent_input": "אמרתי לו לסגור את המשחק ולפתוח מחברת עכשיו. הוא לא זז. אני מרגיש שהקול שלי עולה.",
+    "arena": "homework",
+    "pattern": "zero_to_hundred",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא זז — והכעס שלך עולה. הוא לא יכול לזוז כשמישהו כועס עליו.",
+      "what_to_do": "עצור לפני שניגש אליו. טון אחד למטה. תגש בשקט, תקח את הטלפון מהיד בלי מילה ותניח אותו מחוץ לחדר.",
+      "what_to_say": "מחברת עכשיו.",
+      "what_not_to_do": "אל תכנס לוויכוח. זה רק מעלה את הטון."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440031",
+    "parent_input": "הוא לא פותח מחברת. בוא אני אשב לידו ואעזור לו להתחיל.",
+    "arena": "homework",
+    "pattern": "just_this_once",
+    "age_band": "9-10",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה שמישהו יעשה במקומו. הוא מסוגל לפתוח מחברת לבד.",
+      "what_to_do": "עמוד במקום. אמור משפט אחד. חכה.",
+      "what_to_say": "מחברת עכשיו.",
+      "what_not_to_do": "אל תעשה במקומו. מה שתעשה היום במקומו — הוא לא ילמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440032",
+    "parent_input": "כבר שעה שאני אומר לו לעשות שיעורים. אני עייף.",
+    "arena": "homework",
+    "pattern": "quiet_surrender",
+    "age_band": "9-10",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה לראות אם תעשה במקומו. ככל שתחכה יותר, כך הוא ילמד שלא צריך לזוז.",
+      "what_to_do": "קום. גש אליו. קח את הטלפון מהיד בלי מילה. הנח אותו מחוץ לחדר.",
+      "what_to_say": "מחברת עכשיו.",
+      "what_not_to_do": "אל תמתין שהוא יפתח מעצמו. כל דקה נוספת שאתה לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440033",
+    "parent_input": "אמרתי לה ארבע פעמים לכבות מסך וללכת לישון. היא עדיין יושבת.",
+    "arena": "evening",
+    "pattern": "loop",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא שומעת אותך — אבל למדה שאפשר להמשיך. ככל שתגידי יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצרי במקום. תני לה 10 שניות שקט. אחרי זה תגשי, תקחי את הטלפון מהיד בלי מילה ותניחי אותו בחוץ.",
+      "what_to_say": "מסך כבוי. למיטה.",
+      "what_not_to_do": "אל תמשיכי להסביר למה חשוב לישון. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440034",
+    "parent_input": "אמרתי לה לכבות מסך עכשיו. היא לא זזה. אני מרגיש שהקול שלי עולה.",
+    "arena": "evening",
+    "pattern": "zero_to_hundred",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "היא לא זזה — והכעס שלך עולה. היא לא יכולה לזוז כשמישהו כועס עליה.",
+      "what_to_do": "עצור לפני שניגש אליה. טון אחד למטה. תגש בשקט, תקח את הטלפון מהיד בלי מילה ותניח אותו בחוץ.",
+      "what_to_say": "מסך כבוי. למיטה.",
+      "what_not_to_do": "אל תכנס לוויכוח. זה רק מעלה את הטון."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440035",
+    "parent_input": "היא לא הולכת לישון. בוא אני אכבה לה את המסך.",
+    "arena": "evening",
+    "pattern": "just_this_once",
+    "age_band": "9-10",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה שמישהו יעשה במקומה. היא מסוגלת לכבות מסך לבד.",
+      "what_to_do": "עמוד במקום. אמור משפט אחד. חכה.",
+      "what_to_say": "מסך כבוי. למיטה.",
+      "what_not_to_do": "אל תעשה במקומה. מה שתעשה היום במקומה — היא לא תלמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440036",
+    "parent_input": "כבר שעה שאני אומרת לה לכבות מסך. אני עייפה.",
+    "arena": "evening",
+    "pattern": "quiet_surrender",
+    "age_band": "9-10",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה לראות אם תכבה את המסך בעצמך. ככל שתחכי יותר, כך היא תלמד שלא צריך לזוז.",
+      "what_to_do": "קומי. גשי אליה. קחי את הטלפון מהיד בלי מילה. הניחי אותו בחוץ.",
+      "what_to_say": "מסך כבוי. למיטה.",
+      "what_not_to_do": "אל תמתיני שהיא תכבה מעצמה. כל דקה נוספת שאת לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440037",
+    "parent_input": "האחות הקטנה קיבלה משהו. הוא לקח לה מהיד.",
+    "arena": "siblings",
+    "pattern": "loop",
+    "age_band": "7-8",
+    "parent_state": "burning",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לא יודע לבקש מקום בלי לקחת. כל הסבר נוסף הוא תשומת לב — שזה בדיוק מה שהוא חיפש.",
+      "what_to_do": "אל תסביר. עצור את הלקיחה. משפט אחד — שקט. קודם החזר לאחות. אחר כך החזר אותו לדרך אחרת לבקש.",
+      "what_to_say": "לא לוקחים מהיד.",
+      "what_not_to_do": "אל תהפוך את זה להרצאה. זה רק נותן לו תשומת לב מתוך הלקיחה."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440038",
+    "parent_input": "האחות הקטנה קיבלה משהו. הוא לקח לה. הגוף שלי כבר נכנס אליו בכעס.",
+    "arena": "siblings",
+    "pattern": "zero_to_hundred",
+    "age_band": "7-8",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא רע. הוא פעל לפני שידע לעצור. הוא לא יכול להירגע כשמישהו מגיע אליו בחוזקה.",
+      "what_to_do": "עצור לפני שמדבר. תגש בשקט — לא בריצה. עצור את הלקיחה. קודם החזר לאחות.",
+      "what_to_say": "לא לוקחים מהיד.",
+      "what_not_to_do": "אל תרים קול. זה רק מעכב אותו."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440039",
+    "parent_input": "האחות הקטנה קיבלה משהו. הוא לקח. אני חושב לתת לו משהו שלו כדי שזה ייגמר.",
+    "arena": "siblings",
+    "pattern": "just_this_once",
+    "age_band": "7-8",
+    "parent_state": "stuck",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לומד מה עובד. אם לקיחה מביאה משהו שלו — הוא ימשיך לקחת.",
+      "what_to_do": "אל תיגש אליו מתוך רצון להרגיע. עצור את הלקיחה קודם. החזר לאחות. אחר כך החזר אותו לדרך אחרת לבקש.",
+      "what_to_say": "לא לוקחים מהיד. עוצרים.",
+      "what_not_to_do": "אל תיתן לו משהו מתוך הלקיחה. זה רק מלמד אותו להמשיך."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440040",
+    "parent_input": "האחות הקטנה קיבלה משהו. הוא לקח שוב. אני עייף מהדפוס הזה.",
+    "arena": "siblings",
+    "pattern": "quiet_surrender",
+    "age_band": "7-8",
+    "parent_state": "depleted",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לא לומד לבקש אחרת כשלקיחה עוברת בשתיקה. כל פעם שלא עצרת — הוא למד שאפשר להמשיך.",
+      "what_to_do": "אל תישאר יושב. קום ועצור. עצור את הלקיחה. קודם החזר לאחות. אחר כך החזר אותו לדרך אחרת לבקש.",
+      "what_to_say": "לא לוקחים מהיד.",
+      "what_not_to_do": "אל תתן לזה לעבור. כל פעם שלא עצרת — הוא למד שאפשר."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440041",
+    "parent_input": "אמרתי לו שבע פעמים לאכול. הוא עדיין יושב מול הטלפון.",
+    "arena": "morning",
+    "pattern": "loop",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא שומע אותך — אבל למד שאפשר להמשיך במסך. ככל שתגיד יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצור במקום. תן לו 10 שניות שקט. אחרי זה תגש, תקח את הטלפון מהיד בלי מילה ותניח אותו הצידה.",
+      "what_to_say": "עכשיו אוכלים.",
+      "what_not_to_do": "אל תמשיך להסביר למה חשוב לאכול. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440042",
+    "parent_input": "אמרתי לו לשבת לאכול עכשיו. הוא לא זז. אני מרגיש שהקול שלי עולה.",
+    "arena": "morning",
+    "pattern": "zero_to_hundred",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא זז — והכעס שלך עולה. הוא לא יכול לזוז כשמישהו כועס עליו.",
+      "what_to_do": "עצור לפני שניגש אליו. טון אחד למטה. תגש בשקט, תקח את הטלפון מהיד בלי מילה ותניח אותו הצידה.",
+      "what_to_say": "לכיסא עכשיו.",
+      "what_not_to_do": "אל תכנס לוויכוח. זה רק מעלה את הטון."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440043",
+    "parent_input": "הוא לא בא לאכול. בוא אני אביא לו את האוכל למסך.",
+    "arena": "morning",
+    "pattern": "just_this_once",
+    "age_band": "9-10",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה שמישהו יעשה במקומו. הוא מסוגל לבוא לשולחן לבד.",
+      "what_to_do": "אל תביא לו את האוכל. עמוד במקום. אמור משפט אחד. חכה.",
+      "what_to_say": "לכיסא עכשיו.",
+      "what_not_to_do": "אל תעשה במקומו. מה שתעשה היום במקומו — הוא לא ילמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440044",
+    "parent_input": "כבר חצי שעה שאני אומר לו לבוא לאכול. אני עייף.",
+    "arena": "morning",
+    "pattern": "quiet_surrender",
+    "age_band": "9-10",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה לראות אם תביא לו את האוכל. ככל שתחכה יותר, כך הוא ילמד שלא צריך לזוז.",
+      "what_to_do": "קום. גש אליו. קח את הטלפון מהיד בלי מילה. הנח אותו הצידה.",
+      "what_to_say": "לכיסא עכשיו.",
+      "what_not_to_do": "אל תמתין שהוא יבוא מעצמו. כל דקה נוספת שאתה לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440045",
+    "parent_input": "האח הקטן ניסה לקחת לו משחק. הוא דחף אותו.",
+    "arena": "siblings",
+    "pattern": "loop",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לא יודע להגן על עצמו בלי לדחוף. כל הסבר נוסף הוא תשומת לב — שזה לא מה שהוא צריך עכשיו.",
+      "what_to_do": "אל תסביר. עצור את הדחיפה. משפט אחד — שקט. קודם טפל באח. אחר כך החזר אותו לדרך אחרת להגן.",
+      "what_to_say": "לא דוחפים.",
+      "what_not_to_do": "אל תהפוך את זה להרצאה. זה רק נותן לו תשומת לב מתוך הדחיפה."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440046",
+    "parent_input": "האח הקטן ניסה לקחת לו משחק. הוא דחף. הגוף שלי כבר נכנס אליו בכעס.",
+    "arena": "siblings",
+    "pattern": "zero_to_hundred",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא רע. הוא פעל לפני שידע לעצור. הוא לא יכול להירגע כשמישהו מגיע אליו בחוזקה.",
+      "what_to_do": "עצור לפני שמדבר. תגש בשקט — לא בריצה. עצור את הדחיפה. קודם טפל באח.",
+      "what_to_say": "לא דוחפים.",
+      "what_not_to_do": "אל תרים קול. זה רק מעכב אותו."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440047",
+    "parent_input": "האח הקטן ניסה לקחת לו משחק. הוא דחף. אני חושב להפריד ביניהם.",
+    "arena": "siblings",
+    "pattern": "just_this_once",
+    "age_band": "9-10",
+    "parent_state": "stuck",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לומד מה עובד. אם דחיפה גורמת להפרדה — הוא ימשיך לדחוף.",
+      "what_to_do": "אל תיגש אליו מתוך רצון להפריד. עצור את הדחיפה קודם. טפל באח. אחר כך החזר אותו לדרך אחרת להגן.",
+      "what_to_say": "לא דוחפים. עוצרים.",
+      "what_not_to_do": "אל תפריד מתוך הדחיפה. זה רק מלמד אותו להמשיך."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440048",
+    "parent_input": "האח הקטן ניסה לקחת לו משחק. הוא דחף שוב. אני עייף מהדפוס הזה.",
+    "arena": "siblings",
+    "pattern": "quiet_surrender",
+    "age_band": "9-10",
+    "parent_state": "depleted",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לא לומד להגן אחרת כשדחיפה עוברת בשתיקה. כל פעם שלא עצרת — הוא למד שאפשר להמשיך.",
+      "what_to_do": "אל תישאר יושב. קום ועצור. עצור את הדחיפה. קודם טפל באח. אחר כך החזר אותו לדרך אחרת להגן.",
+      "what_to_say": "לא דוחפים.",
+      "what_not_to_do": "אל תתן לזה לעבור. כל פעם שלא עצרת — הוא למד שאפשר."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440049",
+    "parent_input": "אמרתי לה חמש פעמים לצחצח שיניים. היא עדיין יושבת עם הטלפון.",
+    "arena": "evening",
+    "pattern": "loop",
+    "age_band": "3-4",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא שומעת אותך — אבל למדה שאפשר להמשיך. ככל שתגידי יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצרי במקום. תני לה 5 שניות שקט. אחרי זה תגשי, תקחי את הטלפון מהיד בלי מילה ותוביל אותה לשירותים.",
+      "what_to_say": "שיניים עכשיו.",
+      "what_not_to_do": "אל תמשיכי להסביר למה חשוב לצחצח שיניים. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440050",
+    "parent_input": "אמרתי לה לצחצח שיניים עכשיו. היא לא זזה. אני מרגיש שהקול שלי עולה.",
+    "arena": "evening",
+    "pattern": "zero_to_hundred",
+    "age_band": "3-4",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "היא לא זזה — והכעס שלך עולה. היא לא יכולה לזוז כשמישהו כועס עליה.",
+      "what_to_do": "עצור לפני שניגש אליה. טון אחד למטה. תגש בשקט, תקח את הטלפון מהיד בלי מילה ותוביל אותה לשירותים.",
+      "what_to_say": "שיניים עכשיו.",
+      "what_not_to_do": "אל תדבר מתוך כעס. זה רק מעכב אותה."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440051",
+    "parent_input": "היא לא צוחצחת שיניים. בוא אני אצחצח לה.",
+    "arena": "evening",
+    "pattern": "just_this_once",
+    "age_band": "3-4",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה שמישהו יעשה במקומה. היא מסוגלת לצחצח לבד עם ליווי.",
+      "what_to_do": "אל תצחצחי במקומה. הוביל אותה לשירותים. תני לה את המברשת. עמדי לידה.",
+      "what_to_say": "שיניים עכשיו.",
+      "what_not_to_do": "אל תעשי במקומה. מה שתעשי היום במקומה — היא לא תלמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440052",
+    "parent_input": "כבר חצי שעה שאני אומרת לה לצחצח שיניים. אני עייפה.",
+    "arena": "evening",
+    "pattern": "quiet_surrender",
+    "age_band": "3-4",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה לראות אם תצחצחי לה. ככל שתחכי יותר, כך היא תלמד שלא צריך לזוז.",
+      "what_to_do": "קומי. גשי אליה. קחי את הטלפון מהיד בלי מילה. הוביל אותה לשירותים.",
+      "what_to_say": "שיניים עכשיו.",
+      "what_not_to_do": "אל תמתיני שהיא תצחצח מעצמה. כל דקה נוספת שאת לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440053",
+    "parent_input": "אמרתי לו ששת פעמים לפתוח ספר. הוא עדיין משחק.",
+    "arena": "homework",
+    "pattern": "loop",
+    "age_band": "5-6",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא שומע אותך — אבל למד שאפשר להמשיך לשחק. ככל שתגיד יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצור במקום. תן לו 10 שניות שקט. אחרי זה תגש, תקח את הצעצוע מהיד בלי מילה ותניח את הספר לפניו.",
+      "what_to_say": "עכשיו פותחים ספר.",
+      "what_not_to_do": "אל תמשיך להסביר למה חשוב לקרוא. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440054",
+    "parent_input": "אמרתי לו לפתוח ספר עכשיו. הוא לא זז. אני מרגיש שהקול שלי עולה.",
+    "arena": "homework",
+    "pattern": "zero_to_hundred",
+    "age_band": "5-6",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא זז — והכעס שלך עולה. הוא לא יכול לזוז כשמישהו כועס עליו.",
+      "what_to_do": "עצור לפני שניגש אליו. טון אחד למטה. תגש בשקט, תקח את הצעצוע מהיד בלי מילה ותניח את הספר לפניו.",
+      "what_to_say": "עכשיו פותחים ספר.",
+      "what_not_to_do": "אל תכנס לוויכוח. זה רק מעלה את הטון."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440055",
+    "parent_input": "הוא לא פותח ספר. בוא אני אקרא לו.",
+    "arena": "homework",
+    "pattern": "just_this_once",
+    "age_band": "5-6",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה שמישהו יעשה במקומו. הוא מסוגל לפתוח ספר לבד.",
+      "what_to_do": "אל תקרא לו. הנח את הספר לפניו. עמוד לידו. אמור משפט אחד. חכה.",
+      "what_to_say": "עכשיו פותחים ספר.",
+      "what_not_to_do": "אל תעשה במקומו. מה שתעשה היום במקומו — הוא לא ילמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440056",
+    "parent_input": "כבר שעה שאני אומר לו לפתוח ספר. אני עייף.",
+    "arena": "homework",
+    "pattern": "quiet_surrender",
+    "age_band": "5-6",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה לראות אם תקרא לו. ככל שתחכה יותר, כך הוא ילמד שלא צריך לפתוח.",
+      "what_to_do": "קום. גש אליו. קח את הצעצוע מהיד בלי מילה. הנח את הספר לפניו.",
+      "what_to_say": "עכשיו פותחים ספר.",
+      "what_not_to_do": "אל תמתין שהוא יפתח מעצמו. כל דקה נוספת שאתה לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440057",
+    "parent_input": "אמרתי לה שלוש פעמים להתלבש. היא עדיין בפיג'מה.",
+    "arena": "morning",
+    "pattern": "loop",
+    "age_band": "7-8",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא שומעת אותך — אבל למדה שאפשר לחכות. ככל שתגידי יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצרי במקום. תני לה 10 שניות שקט. אחרי זה תגשי והוציאי את הבגדים מהארון בלי מילה.",
+      "what_to_say": "עכשיו מתלבשים.",
+      "what_not_to_do": "אל תמשיכי להסביר למה צריך להתלבש. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440058",
+    "parent_input": "אמרתי לה להתלבש עכשיו. היא לא זזה. אני מרגיש שהקול שלי עולה.",
+    "arena": "morning",
+    "pattern": "zero_to_hundred",
+    "age_band": "7-8",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "היא לא זזה — והכעס שלך עולה. היא לא יכולה לזוז כשמישהו כועס עליה.",
+      "what_to_do": "עצור לפני שניגש אליה. טון אחד למטה. תגש בשקט והוצא את הבגדים מהארון בלי מילה.",
+      "what_to_say": "עכשיו מתלבשים.",
+      "what_not_to_do": "אל תדבר מתוך כעס. זה רק מעכב אותה."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440059",
+    "parent_input": "היא לא מתלבשת. תן לי אני אלביש אותה.",
+    "arena": "morning",
+    "pattern": "just_this_once",
+    "age_band": "7-8",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה שמישהו יעשה במקומה. היא מסוגלת להתלבש לבד.",
+      "what_to_do": "אל תלביש אותה. הוצא את הבגדים מהארון. הנח אותם לידה. עמוד במקום. אמור משפט אחד. חכה.",
+      "what_to_say": "עכשיו מתלבשים.",
+      "what_not_to_do": "אל תעשי במקומה. מה שתעשי היום במקומה — היא לא תלמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440060",
+    "parent_input": "כבר חצי שעה שאני אומרת לה להתלבש. אני עייפה.",
+    "arena": "morning",
+    "pattern": "quiet_surrender",
+    "age_band": "7-8",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה לראות אם תלביש אותה. ככל שתחכי יותר, כך היא תלמד שלא צריך לזוז.",
+      "what_to_do": "קומי. גשי אליה. הוציאי את הבגדים מהארון בלי מילה. הניחי אותם לידה.",
+      "what_to_say": "עכשיו מתלבשים.",
+      "what_not_to_do": "אל תמתיני שהיא תתלבש מעצמה. כל דקה נוספת שאת לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440061",
+    "parent_input": "כמה פעמים אמרתי? שמים נעליים. הוא עדיין יושב.",
+    "arena": "morning",
+    "pattern": "loop",
+    "age_band": "3-4",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא שומע אותך — אבל למד שאפשר לחכות. ככל שתגיד יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצור במקום. תן לו 5 שניות שקט. אחרי זה תגש, תקח את הנעל מהארון בלי מילה והנח אותה לידו.",
+      "what_to_say": "נעליים עכשיו.",
+      "what_not_to_do": "אל תמשיך להסביר למה צריך נעליים. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440062",
+    "parent_input": "אמרתי לו לשים נעליים עכשיו. הוא לא זז. אני מרגיש שהקול שלי עולה.",
+    "arena": "morning",
+    "pattern": "zero_to_hundred",
+    "age_band": "3-4",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא זז — והכעס שלך עולה. הוא לא יכול לזוז כשמישהו כועס עליו.",
+      "what_to_do": "עצור לפני שניגש אליו. טון אחד למטה. תגש בשקט, תקח את הנעל מהארון בלי מילה והנח אותה לידו.",
+      "what_to_say": "נעליים עכשיו.",
+      "what_not_to_do": "אל תדבר מתוך כעס. זה רק מעכב אותו."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440063",
+    "parent_input": "הוא לא שם נעליים. בוא אני אשים לו.",
+    "arena": "morning",
+    "pattern": "just_this_once",
+    "age_band": "3-4",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה שמישהו יעשה במקומו. הוא מסוגל לשים נעליים לבד עם ליווי.",
+      "what_to_do": "אל תשים לו את הנעליים. הנח אותן לידו. עמוד לידו. אמור משפט אחד. חכה.",
+      "what_to_say": "נעליים על הרגליים.",
+      "what_not_to_do": "אל תעשה במקומו. מה שתעשה היום במקומו — הוא לא ילמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440064",
+    "parent_input": "כבר חצי שעה שאני אומר לו לשים נעליים. אני עייף.",
+    "arena": "morning",
+    "pattern": "quiet_surrender",
+    "age_band": "3-4",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה לראות אם תשים לו את הנעליים. ככל שתחכה יותר, כך הוא ילמד שלא צריך לזוז.",
+      "what_to_do": "קום. גש אליו. קח את הנעל מהארון בלי מילה. הנח אותה לידו.",
+      "what_to_say": "נעליים עכשיו.",
+      "what_not_to_do": "אל תמתין שהוא ישים מעצמו. כל דקה נוספת שאתה לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440065",
+    "parent_input": "אמרתי לו שלוש פעמים לפתוח דף. הוא עדיין משחק.",
+    "arena": "morning",
+    "pattern": "loop",
+    "age_band": "5-6",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא שומע אותך — אבל למד שאפשר להמשיך לשחק. ככל שתגיד יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצור במקום. תן לו 10 שניות שקט. אחרי זה תגש, תקח את הצעצוע מהיד בלי מילה ותניח את הדף לפניו.",
+      "what_to_say": "עכשיו פותחים דף.",
+      "what_not_to_do": "אל תמשיך להסביר למה חשוב לעשות את המשימה. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440066",
+    "parent_input": "אמרתי לו לפתוח דף עכשיו. הוא לא זז. אני מרגיש שהקול שלי עולה.",
+    "arena": "morning",
+    "pattern": "zero_to_hundred",
+    "age_band": "5-6",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא זז — והכעס שלך עולה. הוא לא יכול לזוז כשמישהו כועס עליו.",
+      "what_to_do": "עצור לפני שניגש אליו. טון אחד למטה. תגש בשקט, תקח את הצעצוע מהיד בלי מילה ותניח את הדף לפניו.",
+      "what_to_say": "עכשיו פותחים דף.",
+      "what_not_to_do": "אל תכנס לוויכוח. זה רק מעלה את הטון."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440067",
+    "parent_input": "הוא לא פותח דף. בוא אני אעזור לו להתחיל.",
+    "arena": "morning",
+    "pattern": "just_this_once",
+    "age_band": "5-6",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה שמישהו יעשה במקומו. הוא מסוגל לפתוח דף לבד.",
+      "what_to_do": "אל תעזור לו להתחיל. הנח את הדף לפניו. עמוד לידו. אמור משפט אחד. חכה.",
+      "what_to_say": "עכשיו פותחים דף.",
+      "what_not_to_do": "אל תעשה במקומו. מה שתעשה היום במקומו — הוא לא ילמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440068",
+    "parent_input": "כבר שעה שאני אומר לו לפתוח דף. אני עייף.",
+    "arena": "morning",
+    "pattern": "quiet_surrender",
+    "age_band": "5-6",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה לראות אם תפתח לו. ככל שתחכה יותר, כך הוא ילמד שלא צריך לזוז.",
+      "what_to_do": "קום. גש אליו. קח את הצעצוע מהיד בלי מילה. הנח את הדף לפניו.",
+      "what_to_say": "עכשיו פותחים דף.",
+      "what_not_to_do": "אל תמתין שהוא יפתח מעצמו. כל דקה נוספת שאתה לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440069",
+    "parent_input": "האחות הקטנה ניסתה להצטרף למשחק. הוא אמר לה ללכת.",
+    "arena": "morning",
+    "pattern": "loop",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לא יודע להגיד לא בלי לפגוע. כל הסבר נוסף הוא תשומת לב — שזה לא מה שהוא צריך עכשיו.",
+      "what_to_do": "אל תסביר. עצור את הדחייה. משפט אחד — שקט. קודם טפל באחות. אחר כך החזר אותו לדרך אחרת להגיד לא.",
+      "what_to_say": "לא ככה מדברים.",
+      "what_not_to_do": "אל תהפוך את זה להרצאה. זה רק נותן לו תשומת לב מתוך הפגיעה."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440070",
+    "parent_input": "האחות הקטנה ניסתה להצטרף למשחק. הוא אמר לה ללכת. הגוף שלי כבר נכנס אליו בכעס.",
+    "arena": "morning",
+    "pattern": "zero_to_hundred",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא רע. הוא פעל לפני שידע לעצור. הוא לא יכול להירגע כשמישהו מגיע אליו בחוזקה.",
+      "what_to_do": "עצור לפני שמדבר. תגש בשקט — לא בריצה. עצור את הדחייה. קודם טפל באחות.",
+      "what_to_say": "לא ככה מדברים.",
+      "what_not_to_do": "אל תרים קול. זה רק מעכב אותו."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440071",
+    "parent_input": "האחות הקטנה ניסתה להצטרף למשחק. הוא אמר לה ללכת. אני חושב להפריד ביניהם.",
+    "arena": "morning",
+    "pattern": "just_this_once",
+    "age_band": "9-10",
+    "parent_state": "stuck",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לומד מה עובד. אם דחייה גורמת להפרדה — הוא ימשיך לדחות.",
+      "what_to_do": "אל תיגש אליו מתוך רצון להפריד. עצור את הדחייה קודם. טפל באחות. אחר כך החזר אותו לדרך אחרת להגיד לא.",
+      "what_to_say": "לא ככה מדברים. עוצרים.",
+      "what_not_to_do": "אל תפריד מתוך הדחייה. זה רק מלמד אותו להמשיך."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440072",
+    "parent_input": "האחות הקטנה ניסתה להצטרף למשחק. הוא אמר לה ללכת שוב. אני עייף מהדפוס הזה.",
+    "arena": "morning",
+    "pattern": "quiet_surrender",
+    "age_band": "9-10",
+    "parent_state": "depleted",
+    "resistance_type": "active",
+    "guidance_card": {
+      "what_is_happening": "הוא לא לומד להגיד לא אחרת כשדחייה עוברת בשתיקה. כל פעם שלא עצרת — הוא למד שאפשר להמשיך.",
+      "what_to_do": "אל תישאר יושב. קום ועצור. עצור את הדחייה. קודם טפל באחות. אחר כך החזר אותו לדרך אחרת להגיד לא.",
+      "what_to_say": "לא ככה מדברים.",
+      "what_not_to_do": "אל תתן לזה לעבור. כל פעם שלא עצרת — הוא למד שאפשר."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440073",
+    "parent_input": "אמרתי לה שלוש פעמים לכבות אור. היא עדיין קוראת.",
+    "arena": "morning",
+    "pattern": "loop",
+    "age_band": "7-8",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא שומעת אותך — אבל למדה שאפשר להמשיך. ככל שתגידי יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצרי במקום. תני לה 10 שניות שקט. אחרי זה תגשי וכבי את האור בלי מילה.",
+      "what_to_say": "אור כבוי.",
+      "what_not_to_do": "אל תמשיכי להסביר למה חשוב לישון. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440074",
+    "parent_input": "אמרתי לה לכבות אור עכשיו. היא לא זזה. אני מרגיש שהקול שלי עולה.",
+    "arena": "morning",
+    "pattern": "zero_to_hundred",
+    "age_band": "7-8",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "היא לא זזה — והכעס שלך עולה. היא לא יכולה לזוז כשמישהו כועס עליה.",
+      "what_to_do": "עצור לפני שניגש אליה. טון אחד למטה. תגש בשקט וכבה את האור בעצמך בלי מילה.",
+      "what_to_say": "אור כבוי.",
+      "what_not_to_do": "אל תכנס לוויכוח. זה רק מעלה את הטון."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440075",
+    "parent_input": "היא לא כיבתה אור. בוא אני אכבה לה.",
+    "arena": "morning",
+    "pattern": "just_this_once",
+    "age_band": "7-8",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה שמישהו יעשה במקומה. היא מסוגלת לכבות אור לבד.",
+      "what_to_do": "עמוד במקום. אמור משפט אחד. חכה.",
+      "what_to_say": "אור כבוי.",
+      "what_not_to_do": "אל תעשה במקומה. מה שתעשה היום במקומה — היא לא תלמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440076",
+    "parent_input": "כבר חצי שעה שאני אומרת לה לכבות אור. אני עייפה.",
+    "arena": "morning",
+    "pattern": "quiet_surrender",
+    "age_band": "7-8",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "היא מחכה לראות אם תכבי את האור בעצמך. ככל שתחכי יותר, כך היא תלמד שלא צריך לזוז.",
+      "what_to_do": "קומי. גשי אליה. כבי את האור בעצמך בלי מילה.",
+      "what_to_say": "אור כבוי.",
+      "what_not_to_do": "אל תמתיני שהיא תכבה מעצמה. כל דקה נוספת שאת לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440077",
+    "parent_input": "אמרתי לו חמש פעמים לאכול. הוא עדיין על המסך.",
+    "arena": "morning",
+    "pattern": "loop",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא שומע אותך — אבל למד שאפשר להמשיך במסך. ככל שתגיד יותר, כך זה פחות מחייב.",
+      "what_to_do": "עצור במקום. תן לו 10 שניות שקט. אחרי זה תגש, תקח את הטלפון מהיד בלי מילה ותניח אותו הצידה.",
+      "what_to_say": "עכשיו אוכלים.",
+      "what_not_to_do": "אל תמשיך להסביר למה חשוב לאכול. זה רק מוסיף מילים שלא מחייבות."
+    },
+    "anchor": "אמרתי. הוא/היא שמע/ה."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440078",
+    "parent_input": "אמרתי לו לאכול עכשיו. הוא לא זז. אני מרגיש שהקול שלי עולה.",
+    "arena": "morning",
+    "pattern": "zero_to_hundred",
+    "age_band": "9-10",
+    "parent_state": "burning",
+    "resistance_type": "escalating",
+    "guidance_card": {
+      "what_is_happening": "הוא לא זז — והכעס שלך עולה. הוא לא יכול לזוז כשמישהו כועס עליו.",
+      "what_to_do": "עצור לפני שניגש אליו. טון אחד למטה. תגש בשקט, תקח את הטלפון מהיד בלי מילה ותניח אותו הצידה.",
+      "what_to_say": "לכיסא עכשיו.",
+      "what_not_to_do": "אל תכנס לוויכוח. זה רק מעלה את הטון."
+    },
+    "anchor": "עצרתי — זה הניצחון."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440079",
+    "parent_input": "הוא לא בא לאכול. בוא אני אביא לו את האוכל.",
+    "arena": "morning",
+    "pattern": "just_this_once",
+    "age_band": "9-10",
+    "parent_state": "stuck",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה שמישהו יעשה במקומו. הוא מסוגל לבוא לשולחן לבד.",
+      "what_to_do": "אל תביא לו את האוכל. עמוד במקום. אמור משפט אחד. חכה.",
+      "what_to_say": "לכיסא עכשיו.",
+      "what_not_to_do": "אל תעשה במקומו. מה שתעשה היום במקומו — הוא לא ילמד לעשות מחר."
+    },
+    "anchor": "הוא מסוגל."
+  },
+  {
+    "scenario_id": "550e8400-e29b-41d4-a716-446655440080",
+    "parent_input": "כבר שעה שאני אומר לו לבוא לאכול. אני עייף.",
+    "arena": "morning",
+    "pattern": "quiet_surrender",
+    "age_band": "9-10",
+    "parent_state": "depleted",
+    "resistance_type": "passive",
+    "guidance_card": {
+      "what_is_happening": "הוא מחכה לראות אם תביא לו את האוכל. ככל שתחכה יותר, כך הוא ילמד שלא צריך לזוז.",
+      "what_to_do": "קום. גש אליו. קח את הטלפון מהיד בלי מילה. הנח אותו הצידה.",
+      "what_to_say": "לכיסא עכשיו.",
+      "what_not_to_do": "אל תמתין שהוא יבוא מעצמו. כל דקה נוספת שאתה לא עושה כלום — היא הוראה."
+    },
+    "anchor": "הוא/היא רק בודק/ת אותי."
+  }
+]

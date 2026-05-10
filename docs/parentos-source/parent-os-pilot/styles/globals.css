@@ -1,0 +1,185 @@
+/* ParentOS Pilot v1 — locked design tokens.
+ * Primary CTA: #e85e56  |  Background: #f4e9dc  |  Text + Cards: #494949
+ * Fonts: Assistant (body), Rubik (headings)
+ * Hebrew RTL.
+ */
+
+:root {
+  --color-primary: #e85e56;
+  --color-bg: #f4e9dc;
+  --color-text: #494949;
+  --color-card: #ffffff;
+  --color-border: #494949;
+  --color-divider: rgba(73, 73, 73, 0.18);
+
+  --font-body: "Assistant", system-ui, sans-serif;
+  --font-heading: "Rubik", system-ui, sans-serif;
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+
+  --radius-card: 12px;
+  --radius-button: 999px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+body {
+  direction: rtl;
+}
+
+.app-main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: var(--space-3) var(--space-2);
+  min-height: 100vh;
+}
+
+/* --- Home --- */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.home-header {
+  text-align: right;
+}
+
+.home-heading {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--color-text);
+}
+
+.home-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.home-list-item {
+  display: block;
+}
+
+.home-card-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: transform 80ms ease;
+}
+
+.home-card-link:active {
+  transform: scale(0.99);
+}
+
+.home-card-title {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.home-card-meta {
+  font-size: 0.85rem;
+  color: rgba(73, 73, 73, 0.7);
+}
+
+/* --- Routine card --- */
+
+.routine-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.exit-button {
+  background: transparent;
+  border: none;
+  color: var(--color-text);
+  font-size: 1.4rem;
+  padding: var(--space-1) var(--space-2);
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.routine-card {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  padding: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.routine-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.routine-divider {
+  height: 1px;
+  background: var(--color-divider);
+}
+
+.routine-layer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.layer-label {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: rgba(73, 73, 73, 0.85);
+}
+
+.layer-text {
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.cta-primary {
+  background: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-button);
+  padding: var(--space-2) var(--space-4);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  align-self: stretch;
+  transition: transform 80ms ease;
+}
+
+.cta-primary:active {
+  transform: scale(0.99);
+}

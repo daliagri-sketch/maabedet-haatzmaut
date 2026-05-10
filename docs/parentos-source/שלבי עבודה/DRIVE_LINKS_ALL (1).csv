@@ -1,0 +1,111 @@
+תיקייה ראשית,תיקיית משנה,שם קובץ,סוג קובץ,סטטוס,מיקום נוכחי,מיקום מומלץ,קישור Google Drive,הערות
+00_CORE,doctrine,_מעבדת_העצמאות_חזון_v3_1_2026-04-15.docx,docx,FORMAT_ERROR,/mnt/project/,00_CORE/doctrine/,,קובץ טקסט UTF-8 לא DOCX אמיתי. בדיקה ידנית.
+00_CORE,doctrine,_01_01_גישתה_של_דליה_עקרונות_תפעוליים_v3_0_2026-04-14.docx,docx,FORMAT_ERROR + DUPLICATE_IDENTICAL,/mnt/project/,00_CORE/doctrine/,,MD5 זהה לחזון v3.1. שניהם טקסט UTF-8.
+00_CORE,doctrine,__Language_Engine_v2_1_Operational_Source_of_Truth_02_05_2026.docx,docx,LOCKED,/mnt/project/,00_CORE/doctrine/,,8.5KB קטן מ-v1.2 (22.9KB). בדיקה ידנית.
+00_CORE,doctrine,עקרונות_כתיבה___גרסה_נעולה_v1_0__.docx,docx,LOCKED,/mnt/project/,00_CORE/doctrine/,,
+00_CORE,doctrine,03_משפט_פעולה_הגדרה_מבנית_v1_0_01-05-2026.docx,docx,קיים,/mnt/project/,00_CORE/doctrine/,,מועבר לפי הכרעת דליה
+00_CORE,doctrine,Independence_Lab_Theoretical_Foundation_v1_0.docx,docx,חסר,—,00_CORE/doctrine/,,לא נמצא בפועל. רשום ב-INDEX קודם.
+00_CORE,theory,בולבי_ואיינסוורת___עצמאות_ילדים_3-10.docx,docx,חסר,—,00_CORE/theory/,,לא נמצא בפועל. רשום ב-INDEX קודם.
+00_CORE,theory,מאסלו__עצמאות_ילדים_ובוט_הורים.docx,docx,חסר,—,00_CORE/theory/,,לא נמצא בפועל. רשום ב-INDEX קודם.
+00_CORE,theory,תיאוריות_ההתפתחות_המובילות_לשפה_מעשית_ותפקודית.docx,docx,חסר,—,00_CORE/theory/,,לא נמצא בפועל. רשום ב-INDEX קודם.
+00_CORE,locked_decisions,Version_Lock_v1_02_05_2026.docx,docx,נעול,/mnt/project/,00_CORE/locked_decisions/,,
+00_CORE,locked_decisions,Locked_Decision_Ledger_v1.0_02.05.2026.docx,docx,חסר,—,00_CORE/locked_decisions/,,לא נמצא בפועל. רשום ב-INDEX קודם.
+00_CORE,locked_decisions,Canonical_Vocabulary_v1_0_02.05.2026.docx,docx,חסר,—,00_CORE/locked_decisions/,,לא נמצא בפועל. רשום ב-INDEX קודם.
+01_PRODUCT,architecture,__Agent_System_Doctrine_v1.docx,docx,קיים,/mnt/project/,01_PRODUCT/architecture/,,
+01_PRODUCT,architecture,__Agent_Skill_System_Closed_Spec_v1.docx,docx,קיים,/mnt/project/,01_PRODUCT/architecture/,,
+01_PRODUCT,architecture,עקרונות_בניית_תהליך_עבודה_וסקילים.docx,docx,קיים,/mnt/project/,01_PRODUCT/architecture/,,מועבר לפי הכרעת דליה
+01_PRODUCT,specs,__Routine_UX_Spec_v1_1_27_04_2026.docx,docx,קיים,/mnt/project/,01_PRODUCT/specs/,,
+01_PRODUCT,specs,__Developmental_Expectations_v1_0_27_04_2026.docx,docx,קיים,/mnt/project/,01_PRODUCT/specs/,,
+01_PRODUCT,specs,__Siblings_Questions_v1_0_27_04_2026.docx,docx,קיים,/mnt/project/,01_PRODUCT/specs/,,
+01_PRODUCT,gold_cases,GOLD_CASE_HOMEWORK_AGE_7_v1.md,md,קיים,/mnt/project/,01_PRODUCT/gold_cases/,,
+01_PRODUCT,gold_cases,GOLD_CASE_SIBLING_ATTENTION_HARM_AGE_4_v1.md,md,קיים,/mnt/project/,01_PRODUCT/gold_cases/,,
+01_PRODUCT,gold_cases,GOLD_CASE_PLAYSTATION_AGE_6_v1.md,md,חסר,—,01_PRODUCT/gold_cases/,,לא נמצא בפועל
+01_PRODUCT,gold_cases,GOLD_CASE_SCREEN_ENDING_AGE_6_v1.md,md,חסר,—,01_PRODUCT/gold_cases/,,לא נמצא בפועל
+01_PRODUCT,gold_cases,GOLD_CASE_TWINS_PLAYGROUND_AGE_5_v1.md,md,חסר,—,01_PRODUCT/gold_cases/,,לא נמצא בפועל
+01_PRODUCT,gold_cases,GOLD_CASES.md,md,חסר,—,01_PRODUCT/gold_cases/,,development-mapper example
+01_PRODUCT,arenas,Arena_Library_v1_0_Completion_15_Arenas.docx,docx,חסר,—,01_PRODUCT/arenas/,,15 זירות. לא נמצא בפועל.
+01_PRODUCT,arenas,CANONICAL_ARENA_TRIGGER_BANK_v1_0.md,md,חסר,—,01_PRODUCT/arenas/,,375 triggers. קריטי ל-AI Adapter. לא נמצא בפועל.
+01_PRODUCT,arenas,Chores.docx,docx,חסר,—,01_PRODUCT/arenas/,,לא נמצא בפועל
+01_PRODUCT,arenas,Screens.docx,docx,חסר,—,01_PRODUCT/arenas/,,לא נמצא בפועל
+01_PRODUCT,arenas,Sibling.docx,docx,חסר,—,01_PRODUCT/arenas/,,לא נמצא בפועל
+01_PRODUCT,arenas,Sleep.docx,docx,חסר,—,01_PRODUCT/arenas/,,לא נמצא בפועל
+01_PRODUCT,arenas,Transitions.docx,docx,חסר,—,01_PRODUCT/arenas/,,לא נמצא בפועל
+02_CONTENT,banks,__CANONICAL_PARENT_VOICE_BANK_v1_0_LOCKED_02_05_2026.docx,docx,LOCKED,/mnt/project/,02_CONTENT/banks/,,
+02_CONTENT,banks,__CANONICAL_SOMATIC_BANK_v1_0_LOCKED_02_05_2026.docx,docx,LOCKED,/mnt/project/,02_CONTENT/banks/,,
+02_CONTENT,banks,שכבת_תוכן_חיה_להורים__שמרכז_משפטים_חיים_על_הצרכים_ההתפתחותיים_של_ילדים_לפי_גיל__2_.docx,docx,קיים,/mnt/project/,02_CONTENT/banks/,,
+02_CONTENT,banks,Child_Signal_Bank_v1_0.docx,docx,חסר,—,02_CONTENT/banks/,,רק DRAFT קיים ב-scenarios
+02_CONTENT,banks,SOS_BANK.md,md,חסר,—,02_CONTENT/banks/,,12 יחידות SOS. קריטי. לא נמצא בפועל.
+02_CONTENT,banks,Development_Truth_Bank_Unified_v1_0.docx,docx,חסר,—,02_CONTENT/banks/,,קריטי ל-Development Mapper
+02_CONTENT,banks,Parent_Sub_Pattern_Library_v1_0.docx,docx,חסר,—,02_CONTENT/banks/,,17 תת-דפוסים
+02_CONTENT,banks,Developmental_Constraints_NEVER_Demand_v1_0.docx,docx,חסר,—,02_CONTENT/banks/,,25 אל תדרוש
+02_CONTENT,scenarios,__Tagged_Scenarios_Batch_01_v1_1_LOCKED_02_05_2026.docx,docx,LOCKED,/mnt/project/,02_CONTENT/scenarios/,,
+02_CONTENT,scenarios,Tagged_Scenarios_Batch_01.docx,docx,DUPLICATE_VERSION,/mnt/project/,02_CONTENT/scenarios/,,52.9KB גדול מ-LOCKED. בדיקה ידנית. אל לארכב.
+02_CONTENT,scenarios,CANONICAL_PARENT_VOICE_BANK_v1_0_PATCHED.docx,docx,DUPLICATE_IDENTICAL,/mnt/project/,02_CONTENT/scenarios/,,MD5 זהה ל-LOCKED של banks. בדיקה ידנית.
+02_CONTENT,scenarios,CANONICAL_CHILD_SIGNAL_BANK_v1_0_DRAFT.docx,docx,טיוטה,/mnt/project/,02_CONTENT/scenarios/,,ייתכן שזו הגרסה היחידה
+02_CONTENT,messaging,__Morning_Message_Bank_v1_1_27_04_2026.docx,docx,קיים,/mnt/project/,02_CONTENT/messaging/,,
+02_CONTENT,messaging,__מאגר_פידבק_יומי_v1_1_27_04_2026.docx,docx,קיים,/mnt/project/,02_CONTENT/messaging/,,
+02_CONTENT,messaging,__מאגר_SOS_v1_0_27_04_2026.docx,docx,קיים,/mnt/project/,02_CONTENT/messaging/,,
+03_TECH,specs,Tech_Stack_Spec_v1_0_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/specs/,,
+03_TECH,specs,Tech_Stack_Spec_v1_0_04_05_2026.docx,docx,DUPLICATE_FORMAT,/mnt/project/,03_TECH/specs/,,אותה גרסה כמו MD. דורש הכרעה.
+03_TECH,specs,Database_Schema_v1_2_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/specs/,,
+03_TECH,specs,API_Contract_v1_0_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/specs/,,
+03_TECH,specs,State_Machine_Spec_v1_1_04_05_2026.docx,docx,פעיל,/mnt/project/,03_TECH/specs/,,
+03_TECH,specs,UI_Component_Spec_v1_1_04_05_2026.docx,docx,פעיל,/mnt/project/,03_TECH/specs/,,
+03_TECH,specs,ParentOS_MVP_Phase1_Screen_Specs_v1_0.json,json,קיים,/mnt/project/,03_TECH/specs/,,UI specs בפורמט JSON
+03_TECH,skills,Skill_Version_Lock_Decision_Keeper_v1_0_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,Skill_Schema_Guardian_v1_2_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,Runtime_Composer_v1_1_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,Screen_Packet_Builder_v1_1_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,__Skill_Scenario_Tagger_v2_1_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,__Skill_Runtime_Copy_QA_v1_0_1_04_05_2026.md,md,פעיל v1.0.1,/mnt/project/,03_TECH/skills/,,לפי VERSION_NOTE
+03_TECH,skills,Skill_Content_Structurer_v1_0_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,Skill_Registry_v1_0_1_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,scenario-tagger_SKILL.md,md,קיים,/mnt/project/,03_TECH/skills/,,ייתכן system-skill. דורש בדיקה.
+03_TECH,skills,development-mapper_v2_SKILL.md,md,קיים,/mnt/project/,03_TECH/skills/,,ייתכן system-skill. דורש בדיקה.
+03_TECH,contracts,Canonical_Runtime_Contract_v1_1_04_05_2026.docx,docx,פעיל,/mnt/project/,03_TECH/contracts/,,
+03_TECH,contracts,SOS_Payload_Builder_v1_1_2026-05-04.docx,docx,פעיל,/mnt/project/,03_TECH/contracts/,,
+03_TECH,contracts,Child_Signal_Mapping_Lock_v1_1_04_05_2026.docx,docx,פעיל,/mnt/project/,03_TECH/contracts/,,
+03_TECH,contracts,Fallback_Packet_Definition_v1_0_04_05_2026.docx,docx,פעיל,/mnt/project/,03_TECH/contracts/,,
+03_TECH,contracts,AI_Adapter_Integration_Guide_v1_0_COMPLETE.docx,docx,קיים,/mnt/project/,03_TECH/contracts/,,
+03_TECH,contracts,Language_Contract_v1_1.docx,docx,קיים,/mnt/project/,03_TECH/contracts/,,
+04_BUILD,tests,__Gold_Test_Set_v1_0_2_04_05_2026.md,md,פעיל,/mnt/project/,04_BUILD/tests/,,
+04_BUILD,tests,QA_Checklist_Pack_v1_0_04_05_2026.md,md,פעיל,/mnt/project/,04_BUILD/tests/,,
+04_BUILD,integration,Skills_Integration_Test_Spec_v1_1_04_05_2026.docx,docx,פעיל,/mnt/project/,04_BUILD/integration/,,
+04_BUILD,integration,Data_Structure_Tagged_Scenarios_v1_1_04_05_2026.docx,docx,פעיל,/mnt/project/,04_BUILD/integration/,,
+04_BUILD,code,ParentOS_Seed_Data_v1_0_09_05_2026.json,json,קיים,/mnt/project/,04_BUILD/code/,,מועבר לפי הכרעת דליה
+05_ASSETS,design,—,—,ריק,—,05_ASSETS/design/,,
+05_ASSETS,fonts,—,—,ריק,—,05_ASSETS/fonts/,,
+05_ASSETS,images,—,—,ריק,—,05_ASSETS/images/,,
+06_MARKETING,content,—,—,ריק,—,06_MARKETING/content/,,
+06_MARKETING,messaging,—,—,ריק,—,06_MARKETING/messaging/,,
+06_MARKETING,launch,—,—,ריק,—,06_MARKETING/launch/,,
+07_OPERATIONS,processes,Operational_Closure_Pack_v1_5.docx,docx,פעיל,/mnt/project/,07_OPERATIONS/processes/,,
+07_OPERATIONS,legal,—,—,ריק,—,07_OPERATIONS/legal/,,
+07_OPERATIONS,analytics,—,—,ריק,—,07_OPERATIONS/analytics/,,
+08_ניהול_פרויקט,status,PROJECT_STATUS_AUDIT_v1_0_04_05_2026.docx,docx,פעיל,/mnt/project/,08_ניהול_פרויקט/status/,,
+08_ניהול_פרויקט,status,PROJECT_FILE_SYSTEM_v1_0_2026-05-04.docx,docx,פעיל,/mnt/project/,08_ניהול_פרויקט/status/,,
+08_ניהול_פרויקט,status,CONVERSATION_FILE_MAPPING_REGISTRY_v1_0_2026-05-04.docx,docx,פעיל,/mnt/project/,08_ניהול_פרויקט/status/,,
+08_ניהול_פרויקט,status,MOVE_PLAN.md,md,חדש,/mnt/user-data/outputs/,08_ניהול_פרויקט/status/,,נוצר 10.05.2026
+08_ניהול_פרויקט,status,DUPLICATES_REPORT.md,md,חדש,/mnt/user-data/outputs/,08_ניהול_פרויקט/status/,,נוצר 10.05.2026
+08_ניהול_פרויקט,status,MANUAL_REVIEW.md,md,חדש,/mnt/user-data/outputs/,08_ניהול_פרויקט/status/,,נוצר 10.05.2026
+08_ניהול_פרויקט,status,REPO_AUDIT_SUMMARY.md,md,חדש,/mnt/user-data/outputs/,08_ניהול_פרויקט/status/,,נוצר 10.05.2026
+08_ניהול_פרויקט,documentation,KNOWLEDGE_MAP.md,md,פעיל,/mnt/project/,08_ניהול_פרויקט/documentation/,,
+08_ניהול_פרויקט,documentation,PROJECT_STATE.md,md,פעיל,/mnt/project/,08_ניהול_פרויקט/documentation/,,
+08_ניהול_פרויקט,documentation,SKILLS_INDEX.md,md,פעיל,/mnt/project/,08_ניהול_פרויקט/documentation/,,
+08_ניהול_פרויקט,documentation,VERSION_NOTE.md,md,פעיל,/mnt/project/,08_ניהול_פרויקט/documentation/,,
+08_ניהול_פרויקט,documentation,PARENT_VOICE_BANK_LOCK_NOTE.md,md,פעיל,/mnt/project/,08_ניהול_פרויקט/documentation/,,
+08_ניהול_פרויקט,documentation,SOMATIC_BANK_LOCK_NOTE.md,md,פעיל,/mnt/project/,08_ניהול_פרויקט/documentation/,,
+08_ניהול_פרויקט,documentation,template.md,md,MANUAL_REVIEW,/mnt/project/,—,,לא להעביר. דורש זיהוי תוכני.
+08_ניהול_פרויקט,documentation,SKILL.md,md,MANUAL_REVIEW,/mnt/project/,—,,לא להעביר. דורש זיהוי תוכני.
+08_ניהול_פרויקט,חומרים_לאמיר,—,—,ריק,—,08_ניהול_פרויקט/חומרים_לאמיר/,,
+99_ARCHIVE,old_versions,Database_Schema_v1_0_04_05_2026.md,md,מועמד לארכיון,/mnt/project/,99_ARCHIVE/old_versions/,,קיים v1.2 פעיל
+99_ARCHIVE,old_versions,Skill_Schema_Guardian_v1_0_04_05_2026.md,md,מועמד לארכיון,/mnt/project/,99_ARCHIVE/old_versions/,,קיים v1.2 פעיל
+99_ARCHIVE,old_versions,__Runtime_Composer_v1_0_04_05_2026.md,md,מועמד לארכיון,/mnt/project/,99_ARCHIVE/old_versions/,,קיים v1.1 פעיל
+99_ARCHIVE,old_versions,__Screen_Packet_Builder_v1_0_04_05_2026.md,md,מועמד לארכיון,/mnt/project/,99_ARCHIVE/old_versions/,,קיים v1.1 פעיל
+99_ARCHIVE,old_versions,__Gold_Test_Set_v1_0_1_04_05_2026.md,md,מועמד לארכיון,/mnt/project/,99_ARCHIVE/old_versions/,,קיים v1.0.2 פעיל
+99_ARCHIVE,old_versions,Operational_Closure_Pack_v1_4.docx,docx,מועמד לארכיון,/mnt/project/,99_ARCHIVE/old_versions/,,קיים v1.5 פעיל
+99_ARCHIVE,old_versions,Independence_Lab_Language_Engine_v1_2__1_.docx,docx,בדיקה ידנית — לא לארכב,/mnt/project/,—,,פער תוכני 22.9KB → 8.5KB
+99_ARCHIVE,old_versions,Tagged_Scenarios_Batch_01.docx,docx,בדיקה ידנית — לא לארכב,/mnt/project/,—,,גדול מ-LOCKED. חשד אובדן תוכן.
+99_ARCHIVE,old_versions,מעבדת_העצמאות_חזון_v1_0.docx,docx,בדיקה ידנית — לא לארכב,/mnt/project/,—,,פער 20.9KB → 5.7KB
+99_ARCHIVE,old_versions,CANONICAL_PARENT_VOICE_BANK_v1_0_PATCHED.docx,docx,בדיקה ידנית — לא לארכב,/mnt/project/,—,,DUPLICATE_IDENTICAL ל-LOCKED
+99_ARCHIVE,deprecated,—,—,ריק,—,99_ARCHIVE/deprecated/,,

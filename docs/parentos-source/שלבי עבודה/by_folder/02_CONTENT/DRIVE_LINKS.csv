@@ -1,0 +1,16 @@
+תיקייה ראשית,תיקיית משנה,שם קובץ,סוג קובץ,סטטוס,מיקום נוכחי,מיקום מומלץ,קישור Google Drive,הערות
+02_CONTENT,banks,__CANONICAL_PARENT_VOICE_BANK_v1_0_LOCKED_02_05_2026.docx,docx,LOCKED,/mnt/project/,02_CONTENT/banks/,,
+02_CONTENT,banks,__CANONICAL_SOMATIC_BANK_v1_0_LOCKED_02_05_2026.docx,docx,LOCKED,/mnt/project/,02_CONTENT/banks/,,
+02_CONTENT,banks,שכבת_תוכן_חיה_להורים__שמרכז_משפטים_חיים_על_הצרכים_ההתפתחותיים_של_ילדים_לפי_גיל__2_.docx,docx,קיים,/mnt/project/,02_CONTENT/banks/,,
+02_CONTENT,banks,Child_Signal_Bank_v1_0.docx,docx,חסר,—,02_CONTENT/banks/,,רק DRAFT קיים ב-scenarios
+02_CONTENT,banks,SOS_BANK.md,md,חסר,—,02_CONTENT/banks/,,12 יחידות SOS. קריטי. לא נמצא בפועל.
+02_CONTENT,banks,Development_Truth_Bank_Unified_v1_0.docx,docx,חסר,—,02_CONTENT/banks/,,קריטי ל-Development Mapper
+02_CONTENT,banks,Parent_Sub_Pattern_Library_v1_0.docx,docx,חסר,—,02_CONTENT/banks/,,17 תת-דפוסים
+02_CONTENT,banks,Developmental_Constraints_NEVER_Demand_v1_0.docx,docx,חסר,—,02_CONTENT/banks/,,25 אל תדרוש
+02_CONTENT,scenarios,__Tagged_Scenarios_Batch_01_v1_1_LOCKED_02_05_2026.docx,docx,LOCKED,/mnt/project/,02_CONTENT/scenarios/,,
+02_CONTENT,scenarios,Tagged_Scenarios_Batch_01.docx,docx,DUPLICATE_VERSION,/mnt/project/,02_CONTENT/scenarios/,,52.9KB גדול מ-LOCKED. בדיקה ידנית. אל לארכב.
+02_CONTENT,scenarios,CANONICAL_PARENT_VOICE_BANK_v1_0_PATCHED.docx,docx,DUPLICATE_IDENTICAL,/mnt/project/,02_CONTENT/scenarios/,,MD5 זהה ל-LOCKED של banks. בדיקה ידנית.
+02_CONTENT,scenarios,CANONICAL_CHILD_SIGNAL_BANK_v1_0_DRAFT.docx,docx,טיוטה,/mnt/project/,02_CONTENT/scenarios/,,ייתכן שזו הגרסה היחידה
+02_CONTENT,messaging,__Morning_Message_Bank_v1_1_27_04_2026.docx,docx,קיים,/mnt/project/,02_CONTENT/messaging/,,
+02_CONTENT,messaging,__מאגר_פידבק_יומי_v1_1_27_04_2026.docx,docx,קיים,/mnt/project/,02_CONTENT/messaging/,,
+02_CONTENT,messaging,__מאגר_SOS_v1_0_27_04_2026.docx,docx,קיים,/mnt/project/,02_CONTENT/messaging/,,

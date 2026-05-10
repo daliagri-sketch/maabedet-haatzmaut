@@ -1,0 +1,24 @@
+תיקייה ראשית,תיקיית משנה,שם קובץ,סוג קובץ,סטטוס,מיקום נוכחי,מיקום מומלץ,קישור Google Drive,הערות
+03_TECH,specs,Tech_Stack_Spec_v1_0_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/specs/,,
+03_TECH,specs,Tech_Stack_Spec_v1_0_04_05_2026.docx,docx,DUPLICATE_FORMAT,/mnt/project/,03_TECH/specs/,,אותה גרסה כמו MD. דורש הכרעה.
+03_TECH,specs,Database_Schema_v1_2_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/specs/,,
+03_TECH,specs,API_Contract_v1_0_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/specs/,,
+03_TECH,specs,State_Machine_Spec_v1_1_04_05_2026.docx,docx,פעיל,/mnt/project/,03_TECH/specs/,,
+03_TECH,specs,UI_Component_Spec_v1_1_04_05_2026.docx,docx,פעיל,/mnt/project/,03_TECH/specs/,,
+03_TECH,specs,ParentOS_MVP_Phase1_Screen_Specs_v1_0.json,json,קיים,/mnt/project/,03_TECH/specs/,,UI specs בפורמט JSON
+03_TECH,skills,Skill_Version_Lock_Decision_Keeper_v1_0_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,Skill_Schema_Guardian_v1_2_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,Runtime_Composer_v1_1_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,Screen_Packet_Builder_v1_1_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,__Skill_Scenario_Tagger_v2_1_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,__Skill_Runtime_Copy_QA_v1_0_1_04_05_2026.md,md,פעיל v1.0.1,/mnt/project/,03_TECH/skills/,,לפי VERSION_NOTE
+03_TECH,skills,Skill_Content_Structurer_v1_0_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,Skill_Registry_v1_0_1_04_05_2026.md,md,פעיל,/mnt/project/,03_TECH/skills/,,
+03_TECH,skills,scenario-tagger_SKILL.md,md,קיים,/mnt/project/,03_TECH/skills/,,ייתכן system-skill. דורש בדיקה.
+03_TECH,skills,development-mapper_v2_SKILL.md,md,קיים,/mnt/project/,03_TECH/skills/,,ייתכן system-skill. דורש בדיקה.
+03_TECH,contracts,Canonical_Runtime_Contract_v1_1_04_05_2026.docx,docx,פעיל,/mnt/project/,03_TECH/contracts/,,
+03_TECH,contracts,SOS_Payload_Builder_v1_1_2026-05-04.docx,docx,פעיל,/mnt/project/,03_TECH/contracts/,,
+03_TECH,contracts,Child_Signal_Mapping_Lock_v1_1_04_05_2026.docx,docx,פעיל,/mnt/project/,03_TECH/contracts/,,
+03_TECH,contracts,Fallback_Packet_Definition_v1_0_04_05_2026.docx,docx,פעיל,/mnt/project/,03_TECH/contracts/,,
+03_TECH,contracts,AI_Adapter_Integration_Guide_v1_0_COMPLETE.docx,docx,קיים,/mnt/project/,03_TECH/contracts/,,
+03_TECH,contracts,Language_Contract_v1_1.docx,docx,קיים,/mnt/project/,03_TECH/contracts/,,

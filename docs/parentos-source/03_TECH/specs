@@ -1,0 +1,754 @@
+{
+  "meta": {
+    "version": "1.0",
+    "date": "09.05.2026",
+    "scope": "ParentOS MVP Phase 1 — Screen Specifications",
+    "status": "Ready for Development",
+    "screens_count": 4
+  },
+  "design_system": {
+    "font": "Assistant",
+    "typography": {
+      "header": {
+        "size": "28-32pt",
+        "weight": 600,
+        "max_lines": 2
+      },
+      "action_text": {
+        "size": "16-18pt",
+        "weight": "400-500"
+      },
+      "anchor": {
+        "size": "15pt",
+        "color": "muted"
+      },
+      "micro_text": {
+        "size": "13pt",
+        "color": "gray",
+        "usage": "operational info only"
+      }
+    },
+    "colors": {
+      "background": "white/beige",
+      "text": "black/dark_gray",
+      "accent": "warm_yellow"
+    },
+    "interaction": {
+      "cta_per_screen": 1,
+      "cta_voice": "first_person"
+    }
+  },
+  "screens": [
+    {
+      "screen_name": "Home/Input",
+      "screen_id": "home_input_v1",
+      "role": "Parent describes current situation → system captures parent_input, arena, age_band",
+      "components": {
+        "container": "HomeInputScreen",
+        "header": {
+          "component": "ScreenHeader",
+          "text": "מה קורה עכשיו?",
+          "style": {
+            "font_size": "32pt",
+            "weight": 600,
+            "max_lines": 1
+          }
+        },
+        "input_field": {
+          "component": "TextInput",
+          "field": "parent_input",
+          "placeholder": "ספרי מה קרה...",
+          "max_length": 300,
+          "multiline": true
+        },
+        "arena_selector": {
+          "component": "ArenaDropdown",
+          "field": "arena",
+          "options": [
+            "morning_routine",
+            "homework",
+            "bedtime",
+            "mealtime",
+            "screen_time",
+            "sibling_conflict",
+            "public_behavior",
+            "transition"
+          ]
+        },
+        "age_selector": {
+          "component": "AgeBandSelector",
+          "field": "age_band",
+          "options": [
+            "0-3",
+            "4-6",
+            "7-9",
+            "10-12",
+            "13-15",
+            "16-18"
+          ]
+        },
+        "cta": {
+          "component": "PrimaryButton",
+          "text": "ממשיכים",
+          "action": "submit_parent_input"
+        }
+      },
+      "navigation": {
+        "back": null,
+        "next": "Guidance Card",
+        "exit": "System Home"
+      },
+      "json_schema": {
+        "parent_input": {
+          "type": "string",
+          "required": true,
+          "max_length": 300,
+          "description": "Free text describing current situation"
+        },
+        "arena": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "morning_routine",
+            "homework",
+            "bedtime",
+            "mealtime",
+            "screen_time",
+            "sibling_conflict",
+            "public_behavior",
+            "transition"
+          ]
+        },
+        "age_band": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "0-3",
+            "4-6",
+            "7-9",
+            "10-12",
+            "13-15",
+            "16-18"
+          ]
+        },
+        "timestamp": {
+          "type": "ISO 8601",
+          "auto_generated": true
+        }
+      },
+      "db_mapping": {
+        "parent_input": {
+          "table": "sos_events",
+          "column": "trigger_description",
+          "type": "TEXT",
+          "constraints": "NOT NULL"
+        },
+        "arena": {
+          "table": "scenarios",
+          "column": "arena",
+          "type": "TEXT",
+          "constraints": "NOT NULL, CHECK (arena IN ('morning','evening','homework','siblings'))",
+          "note": "MVP uses subset: morning/evening/homework/siblings only"
+        },
+        "age_band": {
+          "table": "scenarios",
+          "column": "age_min, age_max",
+          "type": "INTEGER",
+          "constraints": "NOT NULL",
+          "mapping": {
+            "0-3": "age_min=0, age_max=3",
+            "4-6": "age_min=4, age_max=6",
+            "7-9": "age_min=7, age_max=9",
+            "10-12": "age_min=10, age_max=12",
+            "13-15": "age_min=13, age_max=15",
+            "16-18": "age_min=16, age_max=18"
+          }
+        },
+        "timestamp": {
+          "table": "sos_events",
+          "column": "created_at",
+          "type": "TIMESTAMPTZ",
+          "constraints": "NOT NULL DEFAULT now()"
+        }
+      }
+    },
+    {
+      "screen_name": "Guidance Card",
+      "screen_id": "guidance_card_v1",
+      "role": "Deliver structured, actionable guidance for identified pattern + parent state",
+      "components": {
+        "container": "GuidanceCardScreen",
+        "header": {
+          "component": "PatternHeader",
+          "field": "pattern",
+          "style": {
+            "font_size": "28pt",
+            "weight": 600,
+            "max_lines": 2
+          },
+          "text_map": {
+            "loop": "הלופ",
+            "quiet_surrender": "ויתור שקט",
+            "zero_to_hundred": "מ-0 ל-100",
+            "just_this_once": "רק הפעם"
+          }
+        },
+        "section_1": {
+          "component": "ShortTextBlock",
+          "label": "מה קורה",
+          "field": "guidance_card.what_is_happening",
+          "style": {
+            "font_size": "16pt",
+            "weight": 400,
+            "max_chars": 200
+          }
+        },
+        "section_2": {
+          "component": "DoBlock",
+          "label": "מה עושים",
+          "field": "guidance_card.what_to_do",
+          "style": {
+            "font_size": "18pt",
+            "weight": 500,
+            "max_chars": 150
+          }
+        },
+        "section_3": {
+          "component": "SayBlock",
+          "label": "מה אומרים",
+          "field": "guidance_card.what_to_say",
+          "style": {
+            "font_size": "16pt",
+            "weight": 400,
+            "max_words": 10,
+            "quotation_marks": true
+          }
+        },
+        "section_4": {
+          "component": "ResistanceBlock",
+          "label": "מה לא עושים",
+          "field": "guidance_card.what_not_to_do",
+          "style": {
+            "font_size": "16pt",
+            "weight": 400,
+            "max_chars": 150
+          }
+        },
+        "anchor": {
+          "component": "AnchorBlock",
+          "field": "anchor",
+          "style": {
+            "font_size": "15pt",
+            "color": "muted"
+          }
+        },
+        "cta": {
+          "component": "PrimaryButton",
+          "text": "התחלתי",
+          "action": "mark_guidance_viewed"
+        }
+      },
+      "navigation": {
+        "back": "Home/Input",
+        "next": null,
+        "exit": "System Home"
+      },
+      "json_schema": {
+        "scenario_id": {
+          "type": "UUID",
+          "required": true
+        },
+        "pattern": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "loop",
+            "quiet_surrender",
+            "zero_to_hundred",
+            "just_this_once"
+          ]
+        },
+        "parent_state": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "burning",
+            "stuck",
+            "depleted"
+          ]
+        },
+        "resistance_type": {
+          "type": "enum",
+          "required": false,
+          "values": [
+            "passive",
+            "active",
+            "escalating"
+          ]
+        },
+        "guidance_card": {
+          "type": "object",
+          "required": true,
+          "properties": {
+            "what_is_happening": {
+              "type": "string",
+              "max_length": 200,
+              "required": true
+            },
+            "what_to_do": {
+              "type": "string",
+              "max_length": 150,
+              "required": true
+            },
+            "what_to_say": {
+              "type": "string",
+              "max_length": 50,
+              "required": true
+            },
+            "what_not_to_do": {
+              "type": "string",
+              "max_length": 150,
+              "required": true
+            }
+          }
+        },
+        "anchor": {
+          "type": "string",
+          "required": true,
+          "locked_values": {
+            "loop": "אמרתי. הוא/היא שמע/ה.",
+            "quiet_surrender": "הוא/היא רק בודק/ת אותי.",
+            "zero_to_hundred": "עצרתי — זה הניצחון.",
+            "just_this_once": "הוא מסוגל."
+          }
+        },
+        "timestamp": {
+          "type": "ISO 8601",
+          "auto_generated": true
+        }
+      },
+      "db_mapping": {
+        "scenario_id": {
+          "table": "scenarios",
+          "column": "id",
+          "type": "UUID",
+          "constraints": "PRIMARY KEY"
+        },
+        "pattern": {
+          "table": "scenarios",
+          "column": "pattern",
+          "type": "TEXT",
+          "constraints": "NOT NULL, CHECK (pattern IN ('loop','quiet_surrender','zero_to_hundred','just_this_once'))",
+          "index": "idx_scenarios_pattern"
+        },
+        "parent_state": {
+          "table": "sos_events",
+          "column": "emotional_state",
+          "type": "TEXT",
+          "constraints": "NOT NULL, CHECK (emotional_state IN ('burning','stuck','depleted'))"
+        },
+        "resistance_type": {
+          "table": "scenarios",
+          "column": "trigger_description",
+          "type": "TEXT",
+          "note": "Stored as part of trigger description metadata, not separate column in v1.2"
+        },
+        "guidance_card.what_is_happening": {
+          "table": "content_banks",
+          "column": "body",
+          "type": "TEXT",
+          "constraints": "NOT NULL",
+          "filter": "content_type = 'explanation_short'"
+        },
+        "guidance_card.what_to_do": {
+          "table": "content_banks",
+          "column": "body",
+          "type": "TEXT",
+          "constraints": "NOT NULL",
+          "filter": "content_type = 'action'"
+        },
+        "guidance_card.what_to_say": {
+          "table": "content_banks",
+          "column": "body",
+          "type": "TEXT",
+          "constraints": "NOT NULL",
+          "filter": "content_type = 'regulation'"
+        },
+        "guidance_card.what_not_to_do": {
+          "table": "content_banks",
+          "column": "body",
+          "type": "TEXT",
+          "constraints": "NOT NULL",
+          "filter": "content_type = 'explanation_short', tagged with 'prohibition'"
+        },
+        "anchor": {
+          "table": "content_banks",
+          "column": "body",
+          "type": "TEXT",
+          "constraints": "NOT NULL",
+          "filter": "content_type = 'anchor', pattern = [matched_pattern]"
+        },
+        "timestamp": {
+          "table": "sos_events",
+          "column": "created_at",
+          "type": "TIMESTAMPTZ",
+          "constraints": "NOT NULL DEFAULT now()"
+        }
+      }
+    },
+    {
+      "screen_name": "Reflection/History",
+      "screen_id": "reflection_history_v1",
+      "role": "Past events log with pattern tags, timestamps, parent notes",
+      "components": {
+        "container": "ReflectionHistoryScreen",
+        "header": {
+          "component": "ScreenHeader",
+          "text": "היסטוריה",
+          "style": {
+            "font_size": "32pt",
+            "weight": 600,
+            "max_lines": 1
+          }
+        },
+        "event_list": {
+          "component": "EventListView",
+          "field": "events",
+          "item_component": "EventCard",
+          "item_fields": [
+            "timestamp",
+            "pattern",
+            "arena",
+            "parent_note",
+            "status"
+          ]
+        },
+        "event_card": {
+          "component": "EventCard",
+          "fields": {
+            "timestamp": {
+              "style": {
+                "font_size": "13pt",
+                "color": "gray"
+              }
+            },
+            "pattern": {
+              "style": {
+                "font_size": "16pt",
+                "weight": 500
+              }
+            },
+            "arena": {
+              "style": {
+                "font_size": "14pt",
+                "color": "dark_gray"
+              }
+            },
+            "parent_note": {
+              "style": {
+                "font_size": "15pt",
+                "weight": 400,
+                "max_chars": 200
+              }
+            },
+            "status_badge": {
+              "style": {
+                "font_size": "13pt"
+              }
+            }
+          }
+        },
+        "cta": {
+          "component": "PrimaryButton",
+          "text": "חזרה",
+          "action": "return_to_home"
+        }
+      },
+      "navigation": {
+        "back": "System Home",
+        "next": null,
+        "exit": "System Home"
+      },
+      "json_schema": {
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "event_id": {
+                "type": "UUID",
+                "required": true
+              },
+              "scenario_id": {
+                "type": "UUID",
+                "required": true
+              },
+              "pattern": {
+                "type": "enum",
+                "required": true,
+                "values": [
+                  "loop",
+                  "quiet_surrender",
+                  "zero_to_hundred",
+                  "just_this_once"
+                ]
+              },
+              "arena": {
+                "type": "enum",
+                "required": true,
+                "values": [
+                  "morning",
+                  "evening",
+                  "homework",
+                  "siblings"
+                ]
+              },
+              "timestamp": {
+                "type": "ISO 8601",
+                "required": true
+              },
+              "parent_note": {
+                "type": "string",
+                "required": false,
+                "max_length": 200
+              },
+              "status": {
+                "type": "enum",
+                "required": true,
+                "values": [
+                  "active",
+                  "resolved",
+                  "archived"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "db_mapping": {
+        "event_id": {
+          "table": "sos_events",
+          "column": "id",
+          "type": "UUID",
+          "constraints": "PRIMARY KEY"
+        },
+        "scenario_id": {
+          "table": "scenarios",
+          "column": "id",
+          "type": "UUID",
+          "constraints": "PRIMARY KEY"
+        },
+        "pattern": {
+          "table": "sos_events",
+          "column": "pattern",
+          "type": "TEXT",
+          "constraints": "NOT NULL, CHECK (pattern IN ('loop','quiet_surrender','zero_to_hundred','just_this_once'))"
+        },
+        "arena": {
+          "table": "active_programs",
+          "column": "arena",
+          "type": "TEXT",
+          "constraints": "NOT NULL, CHECK (arena IN ('morning','evening','homework','siblings'))",
+          "note": "Retrieved via JOIN on active_program_id"
+        },
+        "timestamp": {
+          "table": "sos_events",
+          "column": "created_at",
+          "type": "TIMESTAMPTZ",
+          "constraints": "NOT NULL DEFAULT now()",
+          "index": "idx_sos_events_parent_id (for filtering by parent)"
+        },
+        "parent_note": {
+          "table": "sos_events",
+          "column": "trigger_description",
+          "type": "TEXT",
+          "note": "In v1.2, notes are stored in trigger_description. v1.3 may add dedicated notes column."
+        },
+        "status": {
+          "table": "sos_events",
+          "column": "result",
+          "type": "TEXT",
+          "constraints": "CHECK (result IN ('held','not_held'))",
+          "mapping": {
+            "active": "NULL (SOS initiated but not yet resolved)",
+            "resolved": "'held' (parent held the boundary)",
+            "archived": "'not_held' (parent did not hold)"
+          }
+        }
+      }
+    },
+    {
+      "screen_name": "SOS",
+      "screen_id": "sos_v1",
+      "role": "Real-time interrupt — somatic action + anchor only, no explanations",
+      "components": {
+        "container": "SOSScreen",
+        "somatic_action": {
+          "component": "DoBlock",
+          "field": "somatic_action",
+          "style": {
+            "font_size": "18pt",
+            "weight": 500,
+            "max_chars": 150
+          }
+        },
+        "anchor": {
+          "component": "AnchorBlock",
+          "field": "anchor",
+          "style": {
+            "font_size": "15pt",
+            "color": "muted"
+          }
+        },
+        "cta_held": {
+          "component": "HeldButton",
+          "text": "החזקתי",
+          "action": "mark_sos_held"
+        },
+        "cta_not_held": {
+          "component": "NotHeldButton",
+          "text": "לא החזקתי",
+          "action": "mark_sos_not_held"
+        }
+      },
+      "navigation": {
+        "back": null,
+        "next": "SOS Restart / Close",
+        "exit": "System Home"
+      },
+      "json_schema": {
+        "scenario_id": {
+          "type": "UUID",
+          "required": true
+        },
+        "pattern": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "loop",
+            "quiet_surrender",
+            "zero_to_hundred",
+            "just_this_once"
+          ]
+        },
+        "parent_state": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "burning",
+            "stuck",
+            "depleted"
+          ]
+        },
+        "somatic_action": {
+          "type": "string",
+          "required": true,
+          "max_length": 150,
+          "description": "Body instruction, 1 sentence, filmable"
+        },
+        "anchor": {
+          "type": "string",
+          "required": true,
+          "locked_values": {
+            "loop": "אמרתי. הוא/היא שמע/ה.",
+            "quiet_surrender": "הוא/היא רק בודק/ת אותי.",
+            "zero_to_hundred": "עצרתי — זה הניצחון.",
+            "just_this_once": "הוא מסוגל."
+          }
+        },
+        "timestamp": {
+          "type": "ISO 8601",
+          "auto_generated": true
+        }
+      },
+      "db_mapping": {
+        "scenario_id": {
+          "table": "scenarios",
+          "column": "id",
+          "type": "UUID",
+          "constraints": "PRIMARY KEY"
+        },
+        "pattern": {
+          "table": "sos_events",
+          "column": "pattern",
+          "type": "TEXT",
+          "constraints": "NOT NULL, CHECK (pattern IN ('loop','quiet_surrender','zero_to_hundred','just_this_once'))"
+        },
+        "parent_state": {
+          "table": "sos_events",
+          "column": "emotional_state",
+          "type": "TEXT",
+          "constraints": "NOT NULL, CHECK (emotional_state IN ('burning','stuck','depleted'))"
+        },
+        "somatic_action": {
+          "table": "content_banks",
+          "column": "body",
+          "type": "TEXT",
+          "constraints": "NOT NULL",
+          "filter": "content_type = 'regulation', pattern = [matched_pattern]"
+        },
+        "anchor": {
+          "table": "content_banks",
+          "column": "body",
+          "type": "TEXT",
+          "constraints": "NOT NULL",
+          "filter": "content_type = 'anchor', pattern = [matched_pattern]"
+        },
+        "timestamp": {
+          "table": "sos_events",
+          "column": "created_at",
+          "type": "TIMESTAMPTZ",
+          "constraints": "NOT NULL DEFAULT now()"
+        }
+      }
+    }
+  ],
+  "validation_checklist": {
+    "design_constraints": [
+      "All text fields comply with font (Assistant), size, weight, line limits",
+      "Headers: 28-32pt, weight 600, max 2 lines",
+      "Action text: 16-18pt, weight 400-500",
+      "Anchor: 15pt, muted color",
+      "Micro-text: 13pt, gray, operational info only",
+      "Colors: white/beige background, black/dark gray text, warm yellow accent"
+    ],
+    "json_schema": [
+      "All required fields have correct types",
+      "All enums match locked pattern/state/arena sets",
+      "All max_length constraints specified",
+      "Timestamps are ISO 8601 format"
+    ],
+    "db_mapping": [
+      "All mappings reference tables in Database_Schema_v1.2",
+      "Table, column, type, constraints specified for each field",
+      "Indexes noted where performance-critical",
+      "Foreign keys and cascades documented"
+    ],
+    "interaction": [
+      "Single CTA per screen (except SOS with 2 closing buttons)",
+      "First-person phrasing on all CTAs",
+      "No explanations in SOS screen",
+      "Anchors match locked pattern anchors"
+    ],
+    "tone": [
+      "Calm authority throughout",
+      "No therapeutic jargon",
+      "Clear, short, operational language",
+      "Human, not clinical"
+    ]
+  },
+  "locked_anchors": {
+    "loop": "אמרתי. הוא/היא שמע/ה.",
+    "quiet_surrender": "הוא/היא רק בודק/ת אותי.",
+    "zero_to_hundred": "עצרתי — זה הניצחון.",
+    "just_this_once": "הוא מסוגל."
+  },
+  "integration_notes": [
+    "JSON schemas align with API_Contract_v1_0_04_05_2026.md",
+    "DB mappings reference Database_Schema_v1.2_04_05_2026.md",
+    "All enums match locked architecture documents",
+    "Component names reference UI_Component_Spec_v1_1_04_05_2026.docx",
+    "Ready for TypeScript/Next.js frontend implementation",
+    "Compatible with Supabase PostgreSQL backend"
+  ]
+}

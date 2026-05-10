@@ -1,0 +1,87 @@
+{
+  "GS_001": {
+    "scenario_id": "GS_001",
+    "title": "החולצה על הרצפה",
+    "pattern": "quiet_surrender",
+    "arena": "morning",
+    "age_band": "3-4",
+    "routine": {
+      "what_is_really_happening": "הידיים שלך כבר בדרך להלביש אותו.",
+      "why_it_repeats": "כשנכנסים במקומו — הוא לומד שמישהו יחליף אותו כשקשה.",
+      "what_parent_says": "\"חולצה. אני מחכה לך.\"",
+      "what_parent_demands_now": "חולצה אחת. עכשיו.",
+      "what_parent_does_in_body": "ידיים לאורך הגוף — כדי לא להיכנס במקומו.",
+      "what_parent_does_not_do": "לא מרימים את החולצה.",
+      "when_it_gets_hard": "\"הוא מסוגל.\" — פעם אחת. זהו."
+    },
+    "hold_id": "HOLD_005"
+  },
+  "GS_002": {
+    "scenario_id": "GS_002",
+    "title": "הגרב לא נכנסה בפעם הראשונה",
+    "pattern": "just_this_once",
+    "arena": "morning",
+    "age_band": "3-4",
+    "routine": {
+      "what_is_really_happening": "הוא ניסה פעם אחת וזרק. הידיים שלך כבר מתקדמות לסיים בשבילו.",
+      "why_it_repeats": "כשמחליפים אותו אחרי ניסיון אחד — הוא לומד שכשקשה, מישהו לוקח את זה במקומו.",
+      "what_parent_says": "\"קשה. נסה עוד פעם.\"",
+      "what_parent_demands_now": "ניסיון נוסף. עם הגרב הזאת.",
+      "what_parent_does_in_body": "ידיים על הברכיים — כדי לא להגיש.",
+      "what_parent_does_not_do": "לא שמים גרב במקומו. גם אם זה לוקח זמן.",
+      "when_it_gets_hard": "\"הוא מסוגל.\" — פעם אחת. זהו."
+    },
+    "hold_id": "HOLD_011"
+  },
+  "GS_003": {
+    "scenario_id": "GS_003",
+    "title": "בכי בחושך",
+    "pattern": "loop",
+    "arena": "sleep",
+    "age_band": "5-6",
+    "routine": {
+      "what_is_really_happening": "ברגע שאת יוצאת — הוא בוכה. את כבר חוזרת ומסבירה שאין ממה לפחד.",
+      "why_it_repeats": "כל הסבר נוסף מלמד אותו שאם הוא בוכה — את חוזרת ומדברת איתו.",
+      "what_parent_says": "\"אני כאן. לילה טוב.\"",
+      "what_parent_demands_now": "להישאר במיטה. עיניים עצומות.",
+      "what_parent_does_in_body": "עומדים במקום — כדי לא לחזור לחדר.",
+      "what_parent_does_not_do": "לא מסבירים שוב.",
+      "when_it_gets_hard": "המשפט שאמרת — נשאר. לא מוסיפים מילה."
+    },
+    "hold_id": "HOLD_002"
+  },
+  "GS_004": {
+    "scenario_id": "GS_004",
+    "title": "\"אני לא מבין כלום\" — והקול עולה",
+    "pattern": "zero_to_hundred",
+    "arena": "homework",
+    "age_band": "7-8",
+    "routine": {
+      "what_is_really_happening": "הוא קם מהשולחן ואמר שלא מבין כלום. הקול שלך כבר עולה.",
+      "why_it_repeats": "כל הסבר מתוך כעס מלמד אותו שלמידה תמיד קורית מתחת לצעקה.",
+      "what_parent_says": "\"בסדר. בוא נסתכל ביחד.\"",
+      "what_parent_demands_now": "לחזור לשולחן. בלי לדבר עדיין.",
+      "what_parent_does_in_body": "עוצרים לפני שניגשים אליו — טון אחד למטה.",
+      "what_parent_does_not_do": "לא נכנסים לוויכוח.",
+      "when_it_gets_hard": "\"עצרתי — זה הניצחון.\" — פעם אחת."
+    },
+    "hold_id": "HOLD_008"
+  },
+  "GS_005": {
+    "scenario_id": "GS_005",
+    "title": "\"אני לא מבין כלום\"",
+    "pattern": "loop",
+    "arena": "homework",
+    "age_band": "7-8",
+    "routine": {
+      "what_is_really_happening": "הוא קם מהשולחן. אמר שהוא לא מבין כלום. הפה שלך כבר מתחיל להסביר שוב.",
+      "why_it_repeats": "עוד הסבר מלמד אותו שאם הוא נתקע — מישהו ידבר במקומו עד שהוא יזוז.",
+      "what_parent_says": "\"בוא נסתכל רק על השאלה הראשונה.\"",
+      "what_parent_demands_now": "לקרוא את המילה הראשונה בשאלה.",
+      "what_parent_does_in_body": "פה נסגר. יושבים לידו בשקט.",
+      "what_parent_does_not_do": "לא חוזרים על ההסבר.",
+      "when_it_gets_hard": "המשפט שאמרת — נשאר. לא מוסיפים מילה."
+    },
+    "hold_id": "HOLD_002"
+  }
+}

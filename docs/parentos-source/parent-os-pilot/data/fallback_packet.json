@@ -1,0 +1,18 @@
+{
+  "header": {"age_band": "inherited", "arena": "inherited", "mode": "routine"},
+  "title": "רגע לפני",
+  "translation": {
+    "what_is_really_happening": "משהו ביניכם נדלק. עוד לפני שהגעת לכאן.",
+    "why_it_repeats": "כשהגוף שלך מקדים את הראש — חוזרים לאותו מקום."
+  },
+  "action": {
+    "what_parent_says": "\"רגע. אני חוזרת אלייך עוד דקה.\"",
+    "what_parent_demands_now": "אין דרישה עכשיו. רק עצירה.",
+    "what_parent_does_in_body": "רגליים לרצפה. כתפיים יורדות — כדי לא להיכנס פנימה.",
+    "what_parent_does_not_do": "לא ממשיכים את המשפט."
+  },
+  "resistance_hold": {
+    "when_it_gets_hard": "המשפט שאמרת — נשאר. לא מוסיפים מילה."
+  },
+  "meta": {"is_fallback": true, "scenario_id": null, "pattern": null}
+}

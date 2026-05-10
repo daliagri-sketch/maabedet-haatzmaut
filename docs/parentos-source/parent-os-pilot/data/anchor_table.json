@@ -1,0 +1,6 @@
+{
+  "loop":            {"pattern":"loop",            "primary_anchor":"\"אמרתי. הוא/היא שמע/ה.\""},
+  "quiet_surrender": {"pattern":"quiet_surrender", "primary_anchor":"\"הוא/היא רק בודק/ת אותי.\""},
+  "zero_to_hundred": {"pattern":"zero_to_hundred", "primary_anchor":"\"עצרתי — זה הניצחון.\""},
+  "just_this_once":  {"pattern":"just_this_once",  "primary_anchor":"\"הוא/היא מסוגל/ת.\""}
+}

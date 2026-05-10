@@ -1,0 +1,14 @@
+{
+  "HOLD_001": {"hold_id":"HOLD_001","pattern":"loop","hold_type":"body_inhibitory","text":"פה לא נפתח."},
+  "HOLD_002": {"hold_id":"HOLD_002","pattern":"loop","hold_type":"word_anchor","text":"המשפט שאמרת — נשאר. לא מוסיפים מילה."},
+  "HOLD_003": {"hold_id":"HOLD_003","pattern":"loop","hold_type":"presence_hold","text":"מצביעים על המילה הראשונה. בלי לדבר."},
+  "HOLD_004": {"hold_id":"HOLD_004","pattern":"quiet_surrender","hold_type":"body_inhibitory","text":"לא ניגשים להרגיע לפני שהוא ניסה."},
+  "HOLD_005": {"hold_id":"HOLD_005","pattern":"quiet_surrender","hold_type":"word_anchor","text":"\"הוא מסוגל.\" — פעם אחת. זהו."},
+  "HOLD_006": {"hold_id":"HOLD_006","pattern":"quiet_surrender","hold_type":"presence_hold","text":"ידיים לא נוגעות בדף."},
+  "HOLD_007": {"hold_id":"HOLD_007","pattern":"zero_to_hundred","hold_type":"body_inhibitory","text":"לא ניגשים מתוך כעס."},
+  "HOLD_008": {"hold_id":"HOLD_008","pattern":"zero_to_hundred","hold_type":"word_anchor","text":"\"עצרתי — זה הניצחון.\" — פעם אחת."},
+  "HOLD_009": {"hold_id":"HOLD_009","pattern":"zero_to_hundred","hold_type":"presence_hold","text":"נשארים לידו. לא נכנסים לוויכוח."},
+  "HOLD_010": {"hold_id":"HOLD_010","pattern":"just_this_once","hold_type":"body_inhibitory","text":"יד לא מושיטה."},
+  "HOLD_011": {"hold_id":"HOLD_011","pattern":"just_this_once","hold_type":"word_anchor","text":"\"הוא מסוגל.\" — פעם אחת. זהו."},
+  "HOLD_012": {"hold_id":"HOLD_012","pattern":"just_this_once","hold_type":"presence_hold","text":"מחכים. גם אם זה לוקח זמן."}
+}
